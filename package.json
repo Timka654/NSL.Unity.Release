@@ -1,0 +1,22 @@
+{
+  "name": "com.relife87.nsl",
+  "version": "2023.4.12",
+  "displayName": "NSL",
+  "description": "Library for base network communication",
+  "unity": "2021.1",
+  "documentationUrl": "https://github.com/Timka654/NSL",
+  "licensesUrl": "https://github.com/Timka654/NSL",
+  "dependencies": {
+ },
+ "keywords": [
+  ],
+  "author": {
+    "name": "Timur Meiliev",
+    "email": "timka654work@gmail.com",
+    "url": "https://github.com/Timka654"
+  },
+  "scopedRegistries": [
+  ],
+  "samples": [
+  ]
+}
