@@ -7,11 +7,11 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Unity.NSL.Extensions.DBEngine.Migrator/2023.04.12.1611": {
+      "Unity.NSL.Extensions.DBEngine.Migrator/2023.06.09.1541": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
-          "Unity.NSL.Extensions.DBEngine": "2023.4.12.1611",
-          "Unity.NSL.Extensions.DBEngine.Reference": "2023.4.12.1611"
+          "Unity.NSL.Extensions.DBEngine": "2023.6.9.1541",
+          "Unity.NSL.Extensions.DBEngine.Reference": "2023.6.9.1541"
         },
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.Migrator.dll": {}
@@ -23,23 +23,23 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "Unity.NSL.Extensions.DBEngine/2023.4.12.1611": {
+      "Unity.NSL.Extensions.DBEngine/2023.6.9.1541": {
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.dll": {}
         }
       },
-      "Unity.NSL.Extensions.DBEngine.Reference/2023.4.12.1611": {
+      "Unity.NSL.Extensions.DBEngine.Reference/2023.6.9.1541": {
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.dll": {
-            "assemblyVersion": "2023.4.12.1611",
-            "fileVersion": "2023.4.12.1611"
+            "assemblyVersion": "2023.6.9.1541",
+            "fileVersion": "2023.6.9.1541"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.Extensions.DBEngine.Migrator/2023.04.12.1611": {
+    "Unity.NSL.Extensions.DBEngine.Migrator/2023.06.09.1541": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -58,12 +58,12 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
-    "Unity.NSL.Extensions.DBEngine/2023.4.12.1611": {
+    "Unity.NSL.Extensions.DBEngine/2023.6.9.1541": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Extensions.DBEngine.Reference/2023.4.12.1611": {
+    "Unity.NSL.Extensions.DBEngine.Reference/2023.6.9.1541": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
