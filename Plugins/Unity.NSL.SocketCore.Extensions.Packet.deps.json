@@ -7,11 +7,11 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Unity.NSL.SocketCore.Extensions.Packet/2023.06.09.1541": {
+      "Unity.NSL.SocketCore.Extensions.Packet/2023.06.12.0052": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
-          "Unity.NSL.SocketCore": "2023.6.9.1541",
-          "Unity.NSL.SocketCore.Reference": "2023.6.9.1541"
+          "Unity.NSL.SocketCore": "2023.6.12.52",
+          "Unity.NSL.SocketCore.Reference": "2023.6.12.52"
         },
         "runtime": {
           "Unity.NSL.SocketCore.Extensions.Packet.dll": {}
@@ -23,23 +23,23 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "Unity.NSL.SocketCore/2023.6.9.1541": {
+      "Unity.NSL.SocketCore/2023.6.12.52": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {}
         }
       },
-      "Unity.NSL.SocketCore.Reference/2023.6.9.1541": {
+      "Unity.NSL.SocketCore.Reference/2023.6.12.52": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {
-            "assemblyVersion": "2023.6.9.1541",
-            "fileVersion": "2023.6.9.1541"
+            "assemblyVersion": "2023.6.12.52",
+            "fileVersion": "2023.6.12.52"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.SocketCore.Extensions.Packet/2023.06.09.1541": {
+    "Unity.NSL.SocketCore.Extensions.Packet/2023.06.12.0052": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -58,12 +58,12 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
-    "Unity.NSL.SocketCore/2023.6.9.1541": {
+    "Unity.NSL.SocketCore/2023.6.12.52": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore.Reference/2023.6.9.1541": {
+    "Unity.NSL.SocketCore.Reference/2023.6.12.52": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

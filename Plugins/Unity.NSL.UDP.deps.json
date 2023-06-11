@@ -7,15 +7,15 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.NSL.UDP/2023.06.09.1541": {
+      "Unity.NSL.UDP/2023.06.12.0052": {
         "dependencies": {
           "STUN": "0.5.0",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0",
-          "Unity.NSL.SocketCore": "2023.6.9.1541",
-          "Unity.NSL.SocketServer": "2023.6.9.1541",
-          "Unity.NSL.EndPointBuilder.Reference": "2023.6.9.1541",
-          "Unity.NSL.SocketCore.Reference": "2023.6.9.1541",
-          "Unity.NSL.SocketServer.Reference": "2023.6.9.1541"
+          "Unity.NSL.SocketCore": "2023.6.12.52",
+          "Unity.NSL.SocketServer": "2023.6.12.52",
+          "Unity.NSL.EndPointBuilder.Reference": "2023.6.12.52",
+          "Unity.NSL.SocketCore.Reference": "2023.6.12.52",
+          "Unity.NSL.SocketServer.Reference": "2023.6.12.52"
         },
         "runtime": {
           "Unity.NSL.UDP.dll": {}
@@ -37,56 +37,56 @@
           }
         }
       },
-      "Unity.NSL.EndPointBuilder/2023.6.9.1541": {
+      "Unity.NSL.EndPointBuilder/2023.6.12.52": {
         "dependencies": {
-          "Unity.NSL.SocketCore": "2023.6.9.1541"
+          "Unity.NSL.SocketCore": "2023.6.12.52"
         },
         "runtime": {
           "Unity.NSL.EndPointBuilder.dll": {}
         }
       },
-      "Unity.NSL.SocketCore/2023.6.9.1541": {
+      "Unity.NSL.SocketCore/2023.6.12.52": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {}
         }
       },
-      "Unity.NSL.SocketServer/2023.6.9.1541": {
+      "Unity.NSL.SocketServer/2023.6.12.52": {
         "dependencies": {
-          "Unity.NSL.EndPointBuilder": "2023.6.9.1541",
-          "Unity.NSL.SocketCore": "2023.6.9.1541"
+          "Unity.NSL.EndPointBuilder": "2023.6.12.52",
+          "Unity.NSL.SocketCore": "2023.6.12.52"
         },
         "runtime": {
           "Unity.NSL.SocketServer.dll": {}
         }
       },
-      "Unity.NSL.EndPointBuilder.Reference/2023.6.9.1541": {
+      "Unity.NSL.EndPointBuilder.Reference/2023.6.12.52": {
         "runtime": {
           "Unity.NSL.EndPointBuilder.dll": {
-            "assemblyVersion": "2023.6.9.1541",
-            "fileVersion": "2023.6.9.1541"
+            "assemblyVersion": "2023.6.12.52",
+            "fileVersion": "2023.6.12.52"
           }
         }
       },
-      "Unity.NSL.SocketCore.Reference/2023.6.9.1541": {
+      "Unity.NSL.SocketCore.Reference/2023.6.12.52": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {
-            "assemblyVersion": "2023.6.9.1541",
-            "fileVersion": "2023.6.9.1541"
+            "assemblyVersion": "2023.6.12.52",
+            "fileVersion": "2023.6.12.52"
           }
         }
       },
-      "Unity.NSL.SocketServer.Reference/2023.6.9.1541": {
+      "Unity.NSL.SocketServer.Reference/2023.6.12.52": {
         "runtime": {
           "Unity.NSL.SocketServer.dll": {
-            "assemblyVersion": "2023.6.9.1541",
-            "fileVersion": "2023.6.9.1541"
+            "assemblyVersion": "2023.6.12.52",
+            "fileVersion": "2023.6.12.52"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.UDP/2023.06.09.1541": {
+    "Unity.NSL.UDP/2023.06.12.0052": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -105,32 +105,32 @@
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
-    "Unity.NSL.EndPointBuilder/2023.6.9.1541": {
+    "Unity.NSL.EndPointBuilder/2023.6.12.52": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore/2023.6.9.1541": {
+    "Unity.NSL.SocketCore/2023.6.12.52": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketServer/2023.6.9.1541": {
+    "Unity.NSL.SocketServer/2023.6.12.52": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.EndPointBuilder.Reference/2023.6.9.1541": {
+    "Unity.NSL.EndPointBuilder.Reference/2023.6.12.52": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore.Reference/2023.6.9.1541": {
+    "Unity.NSL.SocketCore.Reference/2023.6.12.52": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketServer.Reference/2023.6.9.1541": {
+    "Unity.NSL.SocketServer.Reference/2023.6.12.52": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
