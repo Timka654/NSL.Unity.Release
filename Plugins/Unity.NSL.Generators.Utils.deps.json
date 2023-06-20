@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Unity.NSL.Generators.Utils/2023.06.18.1521": {
+      "Unity.NSL.Generators.Utils/2023.06.21.0236": {
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp": "3.8.0",
           "NETStandard.Library": "2.0.3"
@@ -217,7 +217,7 @@
     }
   },
   "libraries": {
-    "Unity.NSL.Generators.Utils/2023.06.18.1521": {
+    "Unity.NSL.Generators.Utils/2023.06.21.0236": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
