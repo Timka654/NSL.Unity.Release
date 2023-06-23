@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Unity.NSL.Extensions.DBEngine/2023.06.21.1427": {
+      "Unity.NSL.Extensions.DBEngine/2023.06.23.1129": {
         "dependencies": {
           "NETStandard.Library": "2.0.3"
         },
@@ -24,7 +24,7 @@
     }
   },
   "libraries": {
-    "Unity.NSL.Extensions.DBEngine/2023.06.21.1427": {
+    "Unity.NSL.Extensions.DBEngine/2023.06.23.1129": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
