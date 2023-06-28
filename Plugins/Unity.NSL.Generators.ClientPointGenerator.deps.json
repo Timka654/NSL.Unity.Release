@@ -7,15 +7,15 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Unity.NSL.Generators.ClientPointGenerator/2023.06.23.1129": {
+      "Unity.NSL.Generators.ClientPointGenerator/2023.06.26.1649": {
         "dependencies": {
           "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
           "Microsoft.CodeAnalysis.CSharp": "3.8.0",
           "NETStandard.Library": "2.0.3",
-          "Unity.NSL.Generators.BinaryGenerator": "2023.6.23.1129",
-          "Unity.NSL.Generators.Utils": "2023.6.23.1129",
-          "Unity.NSL.Generators.BinaryGenerator.Reference": "2023.6.23.1129",
-          "Unity.NSL.Generators.Utils.Reference": "2023.6.23.1129"
+          "Unity.NSL.Generators.BinaryGenerator": "2023.6.26.1649",
+          "Unity.NSL.Generators.Utils": "2023.6.26.1649",
+          "Unity.NSL.Generators.BinaryGenerator.Reference": "2023.6.26.1649",
+          "Unity.NSL.Generators.Utils.Reference": "2023.6.26.1649"
         },
         "runtime": {
           "Unity.NSL.Generators.ClientPointGenerator.dll": {}
@@ -219,36 +219,36 @@
           }
         }
       },
-      "Unity.NSL.Generators.BinaryGenerator/2023.6.23.1129": {
+      "Unity.NSL.Generators.BinaryGenerator/2023.6.26.1649": {
         "runtime": {
           "Unity.NSL.Generators.BinaryGenerator.dll": {}
         }
       },
-      "Unity.NSL.Generators.Utils/2023.6.23.1129": {
+      "Unity.NSL.Generators.Utils/2023.6.26.1649": {
         "runtime": {
           "Unity.NSL.Generators.Utils.dll": {}
         }
       },
-      "Unity.NSL.Generators.BinaryGenerator.Reference/2023.6.23.1129": {
+      "Unity.NSL.Generators.BinaryGenerator.Reference/2023.6.26.1649": {
         "runtime": {
           "Unity.NSL.Generators.BinaryGenerator.dll": {
-            "assemblyVersion": "2023.6.23.1129",
-            "fileVersion": "2023.6.23.1129"
+            "assemblyVersion": "2023.6.26.1649",
+            "fileVersion": "2023.6.26.1649"
           }
         }
       },
-      "Unity.NSL.Generators.Utils.Reference/2023.6.23.1129": {
+      "Unity.NSL.Generators.Utils.Reference/2023.6.26.1649": {
         "runtime": {
           "Unity.NSL.Generators.Utils.dll": {
-            "assemblyVersion": "2023.6.23.1129",
-            "fileVersion": "2023.6.23.1129"
+            "assemblyVersion": "2023.6.26.1649",
+            "fileVersion": "2023.6.26.1649"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.Generators.ClientPointGenerator/2023.06.23.1129": {
+    "Unity.NSL.Generators.ClientPointGenerator/2023.06.26.1649": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -344,22 +344,22 @@
       "path": "system.threading.tasks.extensions/4.5.4",
       "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
     },
-    "Unity.NSL.Generators.BinaryGenerator/2023.6.23.1129": {
+    "Unity.NSL.Generators.BinaryGenerator/2023.6.26.1649": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Generators.Utils/2023.6.23.1129": {
+    "Unity.NSL.Generators.Utils/2023.6.26.1649": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Generators.BinaryGenerator.Reference/2023.6.23.1129": {
+    "Unity.NSL.Generators.BinaryGenerator.Reference/2023.6.26.1649": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Generators.Utils.Reference/2023.6.23.1129": {
+    "Unity.NSL.Generators.Utils.Reference/2023.6.26.1649": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
