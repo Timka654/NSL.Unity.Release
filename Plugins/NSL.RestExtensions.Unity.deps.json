@@ -7,14 +7,14 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "NSL.RestExtensions.Unity/2023.07.02.1403": {
+      "NSL.RestExtensions.Unity/2023.07.10.1549": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
-          "NSL.Utils.Unity": "2023.7.2.1403",
-          "Unity.NSL.RestExtensions": "2023.7.2.1403",
-          "Unity.NSL.Utils": "2023.7.2.1403",
-          "Unity.NSL.RestExtensions.Reference": "2023.7.2.1403",
-          "Unity.NSL.Utils.Reference": "2023.7.2.1403",
+          "NSL.Utils.Unity": "2023.7.10.1549",
+          "Unity.NSL.RestExtensions": "2023.7.10.1549",
+          "Unity.NSL.Utils": "2023.7.10.1549",
+          "Unity.NSL.RestExtensions.Reference": "2023.7.10.1549",
+          "Unity.NSL.Utils.Reference": "2023.7.10.1549",
           "UnityEngine": "0.0.0.0"
         },
         "runtime": {
@@ -35,20 +35,20 @@
           }
         }
       },
-      "NSL.Utils.Unity/2023.7.2.1403": {
+      "NSL.Utils.Unity/2023.7.10.1549": {
         "runtime": {
           "NSL.Utils.Unity.dll": {}
         }
       },
-      "Unity.NSL.RestExtensions/2023.7.2.1403": {
+      "Unity.NSL.RestExtensions/2023.7.10.1549": {
         "dependencies": {
-          "Unity.NSL.Utils": "2023.7.2.1403"
+          "Unity.NSL.Utils": "2023.7.10.1549"
         },
         "runtime": {
           "Unity.NSL.RestExtensions.dll": {}
         }
       },
-      "Unity.NSL.Utils/2023.7.2.1403": {
+      "Unity.NSL.Utils/2023.7.10.1549": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         },
@@ -56,19 +56,19 @@
           "Unity.NSL.Utils.dll": {}
         }
       },
-      "Unity.NSL.RestExtensions.Reference/2023.7.2.1403": {
+      "Unity.NSL.RestExtensions.Reference/2023.7.10.1549": {
         "runtime": {
           "Unity.NSL.RestExtensions.dll": {
-            "assemblyVersion": "2023.7.2.1403",
-            "fileVersion": "2023.7.2.1403"
+            "assemblyVersion": "2023.7.10.1549",
+            "fileVersion": "2023.7.10.1549"
           }
         }
       },
-      "Unity.NSL.Utils.Reference/2023.7.2.1403": {
+      "Unity.NSL.Utils.Reference/2023.7.10.1549": {
         "runtime": {
           "Unity.NSL.Utils.dll": {
-            "assemblyVersion": "2023.7.2.1403",
-            "fileVersion": "2023.7.2.1403"
+            "assemblyVersion": "2023.7.10.1549",
+            "fileVersion": "2023.7.10.1549"
           }
         }
       },
@@ -83,7 +83,7 @@
     }
   },
   "libraries": {
-    "NSL.RestExtensions.Unity/2023.07.02.1403": {
+    "NSL.RestExtensions.Unity/2023.07.10.1549": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -109,27 +109,27 @@
       "path": "newtonsoft.json/13.0.3",
       "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
-    "NSL.Utils.Unity/2023.7.2.1403": {
+    "NSL.Utils.Unity/2023.7.10.1549": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.RestExtensions/2023.7.2.1403": {
+    "Unity.NSL.RestExtensions/2023.7.10.1549": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Utils/2023.7.2.1403": {
+    "Unity.NSL.Utils/2023.7.10.1549": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.RestExtensions.Reference/2023.7.2.1403": {
+    "Unity.NSL.RestExtensions.Reference/2023.7.10.1549": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Utils.Reference/2023.7.2.1403": {
+    "Unity.NSL.Utils.Reference/2023.7.10.1549": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
