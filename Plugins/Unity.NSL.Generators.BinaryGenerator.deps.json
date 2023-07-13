@@ -7,14 +7,14 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Unity.NSL.Generators.BinaryGenerator/2023.07.10.1549": {
+      "Unity.NSL.Generators.BinaryGenerator/2023.07.13.0218": {
         "dependencies": {
           "Microsoft.CodeAnalysis.Common": "3.8.0",
           "NETStandard.Library": "2.0.3",
-          "Unity.NSL.Generators.Utils": "2023.7.10.1549",
-          "Unity.NSL.SocketCore": "2023.7.10.1549",
-          "Unity.NSL.Generators.Utils.Reference": "2023.7.10.1549",
-          "Unity.NSL.SocketCore.Reference": "2023.7.10.1549"
+          "Unity.NSL.Generators.Utils": "2023.7.13.218",
+          "Unity.NSL.SocketCore": "2023.7.13.218",
+          "Unity.NSL.Generators.Utils.Reference": "2023.7.13.218",
+          "Unity.NSL.SocketCore.Reference": "2023.7.13.218"
         },
         "runtime": {
           "Unity.NSL.Generators.BinaryGenerator.dll": {}
@@ -166,36 +166,36 @@
           }
         }
       },
-      "Unity.NSL.Generators.Utils/2023.7.10.1549": {
+      "Unity.NSL.Generators.Utils/2023.7.13.218": {
         "runtime": {
           "Unity.NSL.Generators.Utils.dll": {}
         }
       },
-      "Unity.NSL.SocketCore/2023.7.10.1549": {
+      "Unity.NSL.SocketCore/2023.7.13.218": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {}
         }
       },
-      "Unity.NSL.Generators.Utils.Reference/2023.7.10.1549": {
+      "Unity.NSL.Generators.Utils.Reference/2023.7.13.218": {
         "runtime": {
           "Unity.NSL.Generators.Utils.dll": {
-            "assemblyVersion": "2023.7.10.1549",
-            "fileVersion": "2023.7.10.1549"
+            "assemblyVersion": "2023.7.13.218",
+            "fileVersion": "2023.7.13.218"
           }
         }
       },
-      "Unity.NSL.SocketCore.Reference/2023.7.10.1549": {
+      "Unity.NSL.SocketCore.Reference/2023.7.13.218": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {
-            "assemblyVersion": "2023.7.10.1549",
-            "fileVersion": "2023.7.10.1549"
+            "assemblyVersion": "2023.7.13.218",
+            "fileVersion": "2023.7.13.218"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.Generators.BinaryGenerator/2023.07.10.1549": {
+    "Unity.NSL.Generators.BinaryGenerator/2023.07.13.0218": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -284,22 +284,22 @@
       "path": "system.threading.tasks.extensions/4.5.4",
       "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
     },
-    "Unity.NSL.Generators.Utils/2023.7.10.1549": {
+    "Unity.NSL.Generators.Utils/2023.7.13.218": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore/2023.7.10.1549": {
+    "Unity.NSL.SocketCore/2023.7.13.218": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Generators.Utils.Reference/2023.7.10.1549": {
+    "Unity.NSL.Generators.Utils.Reference/2023.7.13.218": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore.Reference/2023.7.10.1549": {
+    "Unity.NSL.SocketCore.Reference/2023.7.13.218": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

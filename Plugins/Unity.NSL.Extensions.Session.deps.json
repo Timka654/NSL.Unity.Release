@@ -1,0 +1,127 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "Unity.NSL.Extensions.Session/2023.07.13.0218": {
+        "dependencies": {
+          "Unity.NSL.Generators.BinaryTypeIOGenerator": "2023.7.13.218",
+          "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes": "2023.7.13.218",
+          "Unity.NSL.SocketCore": "2023.7.13.218",
+          "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes.Reference": "2023.7.13.218",
+          "Unity.NSL.Generators.BinaryTypeIOGenerator.Reference": "2023.7.13.218",
+          "Unity.NSL.SocketCore.Reference": "2023.7.13.218"
+        },
+        "runtime": {
+          "Unity.NSL.Extensions.Session.dll": {}
+        }
+      },
+      "Unity.NSL.Generators.BinaryTypeIOGenerator/2023.7.13.218": {
+        "runtime": {
+          "Unity.NSL.Generators.BinaryTypeIOGenerator.dll": {}
+        }
+      },
+      "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes/2023.7.13.218": {
+        "runtime": {
+          "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes.dll": {}
+        }
+      },
+      "Unity.NSL.SocketCore/2023.7.13.218": {
+        "runtime": {
+          "Unity.NSL.SocketCore.dll": {}
+        }
+      },
+      "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes.Reference/2023.7.13.218": {
+        "runtime": {
+          "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes.dll": {
+            "assemblyVersion": "2023.7.13.218",
+            "fileVersion": "2023.7.13.218"
+          }
+        }
+      },
+      "Unity.NSL.Generators.BinaryTypeIOGenerator.Reference/2023.7.13.218": {
+        "runtime": {
+          "Unity.NSL.Generators.BinaryTypeIOGenerator.dll": {
+            "assemblyVersion": "2023.7.13.218",
+            "fileVersion": "2023.7.13.218"
+          }
+        }
+      },
+      "Unity.NSL.SocketCore.Reference/2023.7.13.218": {
+        "runtime": {
+          "Unity.NSL.SocketCore.dll": {
+            "assemblyVersion": "2023.7.13.218",
+            "fileVersion": "2023.7.13.218"
+          }
+        }
+      },
+      "Unity.NSL.Generators.Utils/2023.7.13.218": {
+        "runtime": {
+          "Unity.NSL.Generators.Utils.dll": {
+            "assemblyVersion": "2023.7.13.218",
+            "fileVersion": "2023.7.13.218"
+          }
+        }
+      },
+      "Unity.NSL.Generators.BinaryGenerator/2023.7.13.218": {
+        "runtime": {
+          "Unity.NSL.Generators.BinaryGenerator.dll": {
+            "assemblyVersion": "2023.7.13.218",
+            "fileVersion": "2023.7.13.218"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Unity.NSL.Extensions.Session/2023.07.13.0218": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.NSL.Generators.BinaryTypeIOGenerator/2023.7.13.218": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes/2023.7.13.218": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.NSL.SocketCore/2023.7.13.218": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes.Reference/2023.7.13.218": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.NSL.Generators.BinaryTypeIOGenerator.Reference/2023.7.13.218": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.NSL.SocketCore.Reference/2023.7.13.218": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.NSL.Generators.Utils/2023.7.13.218": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Unity.NSL.Generators.BinaryGenerator/2023.7.13.218": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
