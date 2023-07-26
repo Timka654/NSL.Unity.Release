@@ -7,42 +7,42 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.NSL.LocalBridge/2023.07.13.0301": {
+      "Unity.NSL.LocalBridge/2023.07.26.1030": {
         "dependencies": {
-          "Unity.NSL.SocketCore": "2023.7.13.301",
-          "Unity.NSL.SocketCore.Reference": "2023.7.13.301"
+          "Unity.NSL.SocketCore": "2023.7.26.1030",
+          "Unity.NSL.SocketCore.Reference": "2023.7.26.1030"
         },
         "runtime": {
           "Unity.NSL.LocalBridge.dll": {}
         }
       },
-      "Unity.NSL.SocketCore/2023.7.13.301": {
+      "Unity.NSL.SocketCore/2023.7.26.1030": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {}
         }
       },
-      "Unity.NSL.SocketCore.Reference/2023.7.13.301": {
+      "Unity.NSL.SocketCore.Reference/2023.7.26.1030": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {
-            "assemblyVersion": "2023.7.13.301",
-            "fileVersion": "2023.7.13.301"
+            "assemblyVersion": "2023.7.26.1030",
+            "fileVersion": "2023.7.26.1030"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.LocalBridge/2023.07.13.0301": {
+    "Unity.NSL.LocalBridge/2023.07.26.1030": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore/2023.7.13.301": {
+    "Unity.NSL.SocketCore/2023.7.26.1030": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore.Reference/2023.7.13.301": {
+    "Unity.NSL.SocketCore.Reference/2023.7.26.1030": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
