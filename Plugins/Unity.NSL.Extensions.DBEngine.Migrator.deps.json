@@ -7,42 +7,42 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.NSL.Extensions.DBEngine.Migrator/2023.09.27.1207": {
+      "Unity.NSL.Extensions.DBEngine.Migrator/2023.10.02.0133": {
         "dependencies": {
-          "Unity.NSL.Extensions.DBEngine": "2023.9.27.1207",
-          "Unity.NSL.Extensions.DBEngine.Reference": "2023.9.27.1207"
+          "Unity.NSL.Extensions.DBEngine": "2023.10.2.133",
+          "Unity.NSL.Extensions.DBEngine.Reference": "2023.10.2.133"
         },
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.Migrator.dll": {}
         }
       },
-      "Unity.NSL.Extensions.DBEngine/2023.9.27.1207": {
+      "Unity.NSL.Extensions.DBEngine/2023.10.2.133": {
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.dll": {}
         }
       },
-      "Unity.NSL.Extensions.DBEngine.Reference/2023.9.27.1207": {
+      "Unity.NSL.Extensions.DBEngine.Reference/2023.10.2.133": {
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.dll": {
-            "assemblyVersion": "2023.9.27.1207",
-            "fileVersion": "2023.9.27.1207"
+            "assemblyVersion": "2023.10.2.133",
+            "fileVersion": "2023.10.2.133"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.Extensions.DBEngine.Migrator/2023.09.27.1207": {
+    "Unity.NSL.Extensions.DBEngine.Migrator/2023.10.02.0133": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Extensions.DBEngine/2023.9.27.1207": {
+    "Unity.NSL.Extensions.DBEngine/2023.10.2.133": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Extensions.DBEngine.Reference/2023.9.27.1207": {
+    "Unity.NSL.Extensions.DBEngine.Reference/2023.10.2.133": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

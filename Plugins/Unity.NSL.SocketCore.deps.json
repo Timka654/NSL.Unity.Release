@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Unity.NSL.SocketCore/2023.09.27.1207": {
+      "Unity.NSL.SocketCore/2023.10.02.0133": {
         "dependencies": {
           "NETStandard.Library": "2.0.3"
         },
@@ -24,7 +24,7 @@
     }
   },
   "libraries": {
-    "Unity.NSL.SocketCore/2023.09.27.1207": {
+    "Unity.NSL.SocketCore/2023.10.02.0133": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
