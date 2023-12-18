@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Open.Nat/2023.10.02.0133": {
+      "Open.Nat/2023.12.19.0132": {
         "runtime": {
           "Open.Nat.dll": {}
         }
@@ -15,7 +15,7 @@
     }
   },
   "libraries": {
-    "Open.Nat/2023.10.02.0133": {
+    "Open.Nat/2023.12.19.0132": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

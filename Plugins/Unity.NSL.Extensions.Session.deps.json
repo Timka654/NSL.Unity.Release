@@ -7,118 +7,118 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.NSL.Extensions.Session/2023.10.02.0133": {
+      "Unity.NSL.Extensions.Session/2023.12.19.0132": {
         "dependencies": {
-          "Unity.NSL.Generators.BinaryTypeIOGenerator": "2023.10.2.133",
-          "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes": "2023.10.2.133",
-          "Unity.NSL.SocketCore": "2023.10.2.133",
-          "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes.Reference": "2023.10.2.133",
-          "Unity.NSL.Generators.BinaryTypeIOGenerator.Reference": "2023.10.2.133",
-          "Unity.NSL.SocketCore.Reference": "2023.10.2.133"
+          "Unity.NSL.Generators.BinaryTypeIOGenerator": "2023.12.19.132",
+          "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes": "2023.12.19.132",
+          "Unity.NSL.SocketCore": "2023.12.19.132",
+          "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes.Reference": "2023.12.19.132",
+          "Unity.NSL.Generators.BinaryTypeIOGenerator.Reference": "2023.12.19.132",
+          "Unity.NSL.SocketCore.Reference": "2023.12.19.132"
         },
         "runtime": {
           "Unity.NSL.Extensions.Session.dll": {}
         }
       },
-      "Unity.NSL.Generators.BinaryTypeIOGenerator/2023.10.2.133": {
+      "Unity.NSL.Generators.BinaryTypeIOGenerator/2023.12.19.132": {
         "runtime": {
           "Unity.NSL.Generators.BinaryTypeIOGenerator.dll": {}
         }
       },
-      "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes/2023.10.2.133": {
+      "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes/2023.12.19.132": {
         "runtime": {
           "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes.dll": {}
         }
       },
-      "Unity.NSL.SocketCore/2023.10.2.133": {
+      "Unity.NSL.SocketCore/2023.12.19.132": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {}
         }
       },
-      "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes.Reference/2023.10.2.133": {
+      "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes.Reference/2023.12.19.132": {
         "runtime": {
           "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes.dll": {
-            "assemblyVersion": "2023.10.2.133",
-            "fileVersion": "2023.10.2.133"
+            "assemblyVersion": "2023.12.19.132",
+            "fileVersion": "2023.12.19.132"
           }
         }
       },
-      "Unity.NSL.Generators.BinaryTypeIOGenerator.Reference/2023.10.2.133": {
+      "Unity.NSL.Generators.BinaryTypeIOGenerator.Reference/2023.12.19.132": {
         "runtime": {
           "Unity.NSL.Generators.BinaryTypeIOGenerator.dll": {
-            "assemblyVersion": "2023.10.2.133",
-            "fileVersion": "2023.10.2.133"
+            "assemblyVersion": "2023.12.19.132",
+            "fileVersion": "2023.12.19.132"
           }
         }
       },
-      "Unity.NSL.SocketCore.Reference/2023.10.2.133": {
+      "Unity.NSL.SocketCore.Reference/2023.12.19.132": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {
-            "assemblyVersion": "2023.10.2.133",
-            "fileVersion": "2023.10.2.133"
+            "assemblyVersion": "2023.12.19.132",
+            "fileVersion": "2023.12.19.132"
           }
         }
       },
-      "Unity.NSL.Generators.Utils/2023.10.2.133": {
+      "Unity.NSL.Generators.Utils/2023.12.19.132": {
         "runtime": {
           "Unity.NSL.Generators.Utils.dll": {
-            "assemblyVersion": "2023.10.2.133",
-            "fileVersion": "2023.10.2.133"
+            "assemblyVersion": "2023.12.19.132",
+            "fileVersion": "2023.12.19.132"
           }
         }
       },
-      "Unity.NSL.Generators.BinaryGenerator/2023.10.2.133": {
+      "Unity.NSL.Generators.BinaryGenerator/2023.12.19.132": {
         "runtime": {
           "Unity.NSL.Generators.BinaryGenerator.dll": {
-            "assemblyVersion": "2023.10.2.133",
-            "fileVersion": "2023.10.2.133"
+            "assemblyVersion": "2023.12.19.132",
+            "fileVersion": "2023.12.19.132"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.Extensions.Session/2023.10.02.0133": {
+    "Unity.NSL.Extensions.Session/2023.12.19.0132": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Generators.BinaryTypeIOGenerator/2023.10.2.133": {
+    "Unity.NSL.Generators.BinaryTypeIOGenerator/2023.12.19.132": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes/2023.10.2.133": {
+    "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes/2023.12.19.132": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore/2023.10.2.133": {
+    "Unity.NSL.SocketCore/2023.12.19.132": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes.Reference/2023.10.2.133": {
+    "Unity.NSL.Generators.BinaryTypeIOGenerator.Attributes.Reference/2023.12.19.132": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Generators.BinaryTypeIOGenerator.Reference/2023.10.2.133": {
+    "Unity.NSL.Generators.BinaryTypeIOGenerator.Reference/2023.12.19.132": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore.Reference/2023.10.2.133": {
+    "Unity.NSL.SocketCore.Reference/2023.12.19.132": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Generators.Utils/2023.10.2.133": {
+    "Unity.NSL.Generators.Utils/2023.12.19.132": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Generators.BinaryGenerator/2023.10.2.133": {
+    "Unity.NSL.Generators.BinaryGenerator/2023.12.19.132": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

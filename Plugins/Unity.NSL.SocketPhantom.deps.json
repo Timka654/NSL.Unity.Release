@@ -7,70 +7,70 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.NSL.SocketPhantom/2023.10.02.0133": {
+      "Unity.NSL.SocketPhantom/2023.12.19.0132": {
         "dependencies": {
-          "Unity.NSL.Cipher": "2023.10.2.133",
-          "Unity.NSL.SocketCore": "2023.10.2.133",
-          "Unity.NSL.Cipher.Reference": "2023.10.2.133",
-          "Unity.NSL.SocketCore.Reference": "2023.10.2.133"
+          "Unity.NSL.Cipher": "2023.12.19.132",
+          "Unity.NSL.SocketCore": "2023.12.19.132",
+          "Unity.NSL.Cipher.Reference": "2023.12.19.132",
+          "Unity.NSL.SocketCore.Reference": "2023.12.19.132"
         },
         "runtime": {
           "Unity.NSL.SocketPhantom.dll": {}
         }
       },
-      "Unity.NSL.Cipher/2023.10.2.133": {
+      "Unity.NSL.Cipher/2023.12.19.132": {
         "dependencies": {
-          "Unity.NSL.SocketCore": "2023.10.2.133"
+          "Unity.NSL.SocketCore": "2023.12.19.132"
         },
         "runtime": {
           "Unity.NSL.Cipher.dll": {}
         }
       },
-      "Unity.NSL.SocketCore/2023.10.2.133": {
+      "Unity.NSL.SocketCore/2023.12.19.132": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {}
         }
       },
-      "Unity.NSL.Cipher.Reference/2023.10.2.133": {
+      "Unity.NSL.Cipher.Reference/2023.12.19.132": {
         "runtime": {
           "Unity.NSL.Cipher.dll": {
-            "assemblyVersion": "2023.10.2.133",
-            "fileVersion": "2023.10.2.133"
+            "assemblyVersion": "2023.12.19.132",
+            "fileVersion": "2023.12.19.132"
           }
         }
       },
-      "Unity.NSL.SocketCore.Reference/2023.10.2.133": {
+      "Unity.NSL.SocketCore.Reference/2023.12.19.132": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {
-            "assemblyVersion": "2023.10.2.133",
-            "fileVersion": "2023.10.2.133"
+            "assemblyVersion": "2023.12.19.132",
+            "fileVersion": "2023.12.19.132"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.SocketPhantom/2023.10.02.0133": {
+    "Unity.NSL.SocketPhantom/2023.12.19.0132": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Cipher/2023.10.2.133": {
+    "Unity.NSL.Cipher/2023.12.19.132": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore/2023.10.2.133": {
+    "Unity.NSL.SocketCore/2023.12.19.132": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Cipher.Reference/2023.10.2.133": {
+    "Unity.NSL.Cipher.Reference/2023.12.19.132": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore.Reference/2023.10.2.133": {
+    "Unity.NSL.SocketCore.Reference/2023.12.19.132": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
