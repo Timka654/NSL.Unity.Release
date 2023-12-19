@@ -7,42 +7,42 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.NSL.Extensions.WaitBuffer/2023.12.19.0132": {
+      "Unity.NSL.Extensions.WaitBuffer/2023.12.19.1354": {
         "dependencies": {
-          "Unity.NSL.SocketCore": "2023.12.19.132",
-          "Unity.NSL.SocketCore.Reference": "2023.12.19.132"
+          "Unity.NSL.SocketCore": "2023.12.19.1354",
+          "Unity.NSL.SocketCore.Reference": "2023.12.19.1354"
         },
         "runtime": {
           "Unity.NSL.Extensions.WaitBuffer.dll": {}
         }
       },
-      "Unity.NSL.SocketCore/2023.12.19.132": {
+      "Unity.NSL.SocketCore/2023.12.19.1354": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {}
         }
       },
-      "Unity.NSL.SocketCore.Reference/2023.12.19.132": {
+      "Unity.NSL.SocketCore.Reference/2023.12.19.1354": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {
-            "assemblyVersion": "2023.12.19.132",
-            "fileVersion": "2023.12.19.132"
+            "assemblyVersion": "2023.12.19.1354",
+            "fileVersion": "2023.12.19.1354"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.Extensions.WaitBuffer/2023.12.19.0132": {
+    "Unity.NSL.Extensions.WaitBuffer/2023.12.19.1354": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore/2023.12.19.132": {
+    "Unity.NSL.SocketCore/2023.12.19.1354": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore.Reference/2023.12.19.132": {
+    "Unity.NSL.SocketCore.Reference/2023.12.19.1354": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
