@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Unity.NSL.Generators.SelectTypeGenerator.Attributes/2024.01.30.1657": {
+      "Unity.NSL.Generators.SelectTypeGenerator.Attributes/2024.02.05.1434": {
         "dependencies": {
           "NETStandard.Library": "2.0.3"
         },
@@ -24,7 +24,7 @@
     }
   },
   "libraries": {
-    "Unity.NSL.Generators.SelectTypeGenerator.Attributes/2024.01.30.1657": {
+    "Unity.NSL.Generators.SelectTypeGenerator.Attributes/2024.02.05.1434": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
