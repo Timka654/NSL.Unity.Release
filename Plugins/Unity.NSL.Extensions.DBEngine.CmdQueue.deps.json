@@ -7,42 +7,42 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.NSL.Extensions.DBEngine.CmdQueue/2024.02.05.1434": {
+      "Unity.NSL.Extensions.DBEngine.CmdQueue/2024.04.11.2346": {
         "dependencies": {
-          "Unity.NSL.Extensions.DBEngine": "2024.2.5.1434",
-          "Unity.NSL.Extensions.DBEngine.Reference": "2024.2.5.1434"
+          "Unity.NSL.Extensions.DBEngine": "2024.4.11.2346",
+          "Unity.NSL.Extensions.DBEngine.Reference": "2024.4.11.2346"
         },
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.CmdQueue.dll": {}
         }
       },
-      "Unity.NSL.Extensions.DBEngine/2024.2.5.1434": {
+      "Unity.NSL.Extensions.DBEngine/2024.4.11.2346": {
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.dll": {}
         }
       },
-      "Unity.NSL.Extensions.DBEngine.Reference/2024.2.5.1434": {
+      "Unity.NSL.Extensions.DBEngine.Reference/2024.4.11.2346": {
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.dll": {
-            "assemblyVersion": "2024.2.5.1434",
-            "fileVersion": "2024.2.5.1434"
+            "assemblyVersion": "2024.4.11.2346",
+            "fileVersion": "2024.4.11.2346"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.Extensions.DBEngine.CmdQueue/2024.02.05.1434": {
+    "Unity.NSL.Extensions.DBEngine.CmdQueue/2024.04.11.2346": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Extensions.DBEngine/2024.2.5.1434": {
+    "Unity.NSL.Extensions.DBEngine/2024.4.11.2346": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Extensions.DBEngine.Reference/2024.2.5.1434": {
+    "Unity.NSL.Extensions.DBEngine.Reference/2024.4.11.2346": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

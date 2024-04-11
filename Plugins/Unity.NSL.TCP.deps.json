@@ -7,42 +7,42 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.NSL.TCP/2024.02.05.1434": {
+      "Unity.NSL.TCP/2024.04.11.2346": {
         "dependencies": {
-          "Unity.NSL.SocketCore": "2024.2.5.1434",
-          "Unity.NSL.SocketCore.Reference": "2024.2.5.1434"
+          "Unity.NSL.SocketCore": "2024.4.11.2346",
+          "Unity.NSL.SocketCore.Reference": "2024.4.11.2346"
         },
         "runtime": {
           "Unity.NSL.TCP.dll": {}
         }
       },
-      "Unity.NSL.SocketCore/2024.2.5.1434": {
+      "Unity.NSL.SocketCore/2024.4.11.2346": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {}
         }
       },
-      "Unity.NSL.SocketCore.Reference/2024.2.5.1434": {
+      "Unity.NSL.SocketCore.Reference/2024.4.11.2346": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {
-            "assemblyVersion": "2024.2.5.1434",
-            "fileVersion": "2024.2.5.1434"
+            "assemblyVersion": "2024.4.11.2346",
+            "fileVersion": "2024.4.11.2346"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.TCP/2024.02.05.1434": {
+    "Unity.NSL.TCP/2024.04.11.2346": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore/2024.2.5.1434": {
+    "Unity.NSL.SocketCore/2024.4.11.2346": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore.Reference/2024.2.5.1434": {
+    "Unity.NSL.SocketCore.Reference/2024.4.11.2346": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
