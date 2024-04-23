@@ -7,14 +7,14 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Unity.NSL.Generators.HttpEndPointGenerator/2024.04.11.2346": {
+      "Unity.NSL.Generators.HttpEndPointGenerator/2024.04.23.1244": {
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp": "3.8.0",
           "NETStandard.Library": "2.0.3",
-          "Unity.NSL.Generators.HttpEndPointGenerator.Attributes": "2024.4.11.2346",
-          "Unity.NSL.Generators.Utils": "2024.4.11.2346",
-          "Unity.NSL.Generators.HttpEndPointGenerator.Attributes.Reference": "2024.4.11.2346",
-          "Unity.NSL.Generators.Utils.Reference": "2024.4.11.2346"
+          "Unity.NSL.Generators.HttpEndPointGenerator.Shared": "2024.4.23.1244",
+          "Unity.NSL.Generators.Utils": "2024.4.23.1244",
+          "Unity.NSL.Generators.HttpEndPointGenerator.Shared.Reference": "2024.4.23.1244",
+          "Unity.NSL.Generators.Utils.Reference": "2024.4.23.1244"
         },
         "runtime": {
           "Unity.NSL.Generators.HttpEndPointGenerator.dll": {}
@@ -25,9 +25,9 @@
         "dependencies": {
           "Microsoft.CodeAnalysis.Analyzers": "3.0.0",
           "System.Collections.Immutable": "5.0.0",
-          "System.Memory": "4.5.4",
+          "System.Memory": "4.5.5",
           "System.Reflection.Metadata": "5.0.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.7.1",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
           "System.Text.Encoding.CodePages": "4.5.1",
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
@@ -131,6 +131,18 @@
           }
         }
       },
+      "Microsoft.Extensions.Primitives/8.0.0": {
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "NETStandard.Library/2.0.3": {
         "dependencies": {
@@ -147,7 +159,7 @@
       },
       "System.Collections.Immutable/5.0.0": {
         "dependencies": {
-          "System.Memory": "4.5.4"
+          "System.Memory": "4.5.5"
         },
         "runtime": {
           "lib/netstandard2.0/System.Collections.Immutable.dll": {
@@ -156,16 +168,16 @@
           }
         }
       },
-      "System.Memory/4.5.4": {
+      "System.Memory/4.5.5": {
         "dependencies": {
           "System.Buffers": "4.5.1",
           "System.Numerics.Vectors": "4.4.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.7.1"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/System.Memory.dll": {
-            "assemblyVersion": "4.0.1.1",
-            "fileVersion": "4.6.28619.1"
+            "assemblyVersion": "4.0.1.2",
+            "fileVersion": "4.6.31308.1"
           }
         }
       },
@@ -188,17 +200,17 @@
           }
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.7.1": {
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "runtime": {
           "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "assemblyVersion": "4.0.6.0",
-            "fileVersion": "4.700.20.12001"
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
           }
         }
       },
       "System.Text.Encoding.CodePages/4.5.1": {
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "4.7.1"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
@@ -209,7 +221,7 @@
       },
       "System.Threading.Tasks.Extensions/4.5.4": {
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "4.7.1"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
@@ -218,36 +230,39 @@
           }
         }
       },
-      "Unity.NSL.Generators.HttpEndPointGenerator.Attributes/2024.4.11.2346": {
+      "Unity.NSL.Generators.HttpEndPointGenerator.Shared/2024.4.23.1244": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
         "runtime": {
-          "Unity.NSL.Generators.HttpEndPointGenerator.Attributes.dll": {}
+          "Unity.NSL.Generators.HttpEndPointGenerator.Shared.dll": {}
         }
       },
-      "Unity.NSL.Generators.Utils/2024.4.11.2346": {
+      "Unity.NSL.Generators.Utils/2024.4.23.1244": {
         "runtime": {
           "Unity.NSL.Generators.Utils.dll": {}
         }
       },
-      "Unity.NSL.Generators.HttpEndPointGenerator.Attributes.Reference/2024.4.11.2346": {
+      "Unity.NSL.Generators.HttpEndPointGenerator.Shared.Reference/2024.4.23.1244": {
         "runtime": {
-          "Unity.NSL.Generators.HttpEndPointGenerator.Attributes.dll": {
-            "assemblyVersion": "2024.4.11.2346",
-            "fileVersion": "2024.4.11.2346"
+          "Unity.NSL.Generators.HttpEndPointGenerator.Shared.dll": {
+            "assemblyVersion": "2024.4.23.1244",
+            "fileVersion": "2024.4.23.1244"
           }
         }
       },
-      "Unity.NSL.Generators.Utils.Reference/2024.4.11.2346": {
+      "Unity.NSL.Generators.Utils.Reference/2024.4.23.1244": {
         "runtime": {
           "Unity.NSL.Generators.Utils.dll": {
-            "assemblyVersion": "2024.4.11.2346",
-            "fileVersion": "2024.4.11.2346"
+            "assemblyVersion": "2024.4.23.1244",
+            "fileVersion": "2024.4.23.1244"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.Generators.HttpEndPointGenerator/2024.04.11.2346": {
+    "Unity.NSL.Generators.HttpEndPointGenerator/2024.04.23.1244": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -272,6 +287,13 @@
       "sha512": "sha512-hKqFCUSk9TIMBDjiYMF8/ZfK9p9mzpU+slM73CaCHu4ctfkoqJGHLQhyT8wvrYsIg+ufrUWBF8hcJYmyr5rc5Q==",
       "path": "microsoft.codeanalysis.csharp/3.8.0",
       "hashPath": "microsoft.codeanalysis.csharp.3.8.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
+      "path": "microsoft.extensions.primitives/8.0.0",
+      "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -301,12 +323,12 @@
       "path": "system.collections.immutable/5.0.0",
       "hashPath": "system.collections.immutable.5.0.0.nupkg.sha512"
     },
-    "System.Memory/4.5.4": {
+    "System.Memory/4.5.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
-      "path": "system.memory/4.5.4",
-      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
     },
     "System.Numerics.Vectors/4.4.0": {
       "type": "package",
@@ -322,12 +344,12 @@
       "path": "system.reflection.metadata/5.0.0",
       "hashPath": "system.reflection.metadata.5.0.0.nupkg.sha512"
     },
-    "System.Runtime.CompilerServices.Unsafe/4.7.1": {
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zOHkQmzPCn5zm/BH+cxC1XbUS3P4Yoi3xzW7eRgVpDR2tPGSzyMZ17Ig1iRkfJuY0nhxkQQde8pgePNiA7z7TQ==",
-      "path": "system.runtime.compilerservices.unsafe/4.7.1",
-      "hashPath": "system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
     "System.Text.Encoding.CodePages/4.5.1": {
       "type": "package",
@@ -343,22 +365,22 @@
       "path": "system.threading.tasks.extensions/4.5.4",
       "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
     },
-    "Unity.NSL.Generators.HttpEndPointGenerator.Attributes/2024.4.11.2346": {
+    "Unity.NSL.Generators.HttpEndPointGenerator.Shared/2024.4.23.1244": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Generators.Utils/2024.4.11.2346": {
+    "Unity.NSL.Generators.Utils/2024.4.23.1244": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Generators.HttpEndPointGenerator.Attributes.Reference/2024.4.11.2346": {
+    "Unity.NSL.Generators.HttpEndPointGenerator.Shared.Reference/2024.4.23.1244": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Generators.Utils.Reference/2024.4.11.2346": {
+    "Unity.NSL.Generators.Utils.Reference/2024.4.23.1244": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
