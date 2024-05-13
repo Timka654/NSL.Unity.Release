@@ -7,122 +7,122 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.NSL.Extensions.DBEngine.StaticQuery/2024.04.23.1244": {
+      "Unity.NSL.Extensions.DBEngine.StaticQuery/2024.05.11.1441": {
         "dependencies": {
-          "Unity.NSL.Extensions.DBEngine": "2024.4.23.1244",
-          "Unity.NSL.SocketServer": "2024.4.23.1244",
-          "Unity.NSL.EndPointBuilder.Reference": "2024.4.23.1244",
-          "Unity.NSL.Extensions.DBEngine.Reference": "2024.4.23.1244",
-          "Unity.NSL.SocketCore.Reference": "2024.4.23.1244",
-          "Unity.NSL.SocketServer.Reference": "2024.4.23.1244"
+          "Unity.NSL.Extensions.DBEngine": "2024.5.11.1441",
+          "Unity.NSL.SocketServer": "2024.5.11.1441",
+          "Unity.NSL.EndPointBuilder.Reference": "2024.5.11.1441",
+          "Unity.NSL.Extensions.DBEngine.Reference": "2024.5.11.1441",
+          "Unity.NSL.SocketCore.Reference": "2024.5.11.1441",
+          "Unity.NSL.SocketServer.Reference": "2024.5.11.1441"
         },
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.StaticQuery.dll": {}
         }
       },
-      "Unity.NSL.EndPointBuilder/2024.4.23.1244": {
+      "Unity.NSL.EndPointBuilder/2024.5.11.1441": {
         "dependencies": {
-          "Unity.NSL.SocketCore": "2024.4.23.1244"
+          "Unity.NSL.SocketCore": "2024.5.11.1441"
         },
         "runtime": {
           "Unity.NSL.EndPointBuilder.dll": {}
         }
       },
-      "Unity.NSL.Extensions.DBEngine/2024.4.23.1244": {
+      "Unity.NSL.Extensions.DBEngine/2024.5.11.1441": {
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.dll": {}
         }
       },
-      "Unity.NSL.SocketCore/2024.4.23.1244": {
+      "Unity.NSL.SocketCore/2024.5.11.1441": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {}
         }
       },
-      "Unity.NSL.SocketServer/2024.4.23.1244": {
+      "Unity.NSL.SocketServer/2024.5.11.1441": {
         "dependencies": {
-          "Unity.NSL.EndPointBuilder": "2024.4.23.1244",
-          "Unity.NSL.SocketCore": "2024.4.23.1244"
+          "Unity.NSL.EndPointBuilder": "2024.5.11.1441",
+          "Unity.NSL.SocketCore": "2024.5.11.1441"
         },
         "runtime": {
           "Unity.NSL.SocketServer.dll": {}
         }
       },
-      "Unity.NSL.EndPointBuilder.Reference/2024.4.23.1244": {
+      "Unity.NSL.EndPointBuilder.Reference/2024.5.11.1441": {
         "runtime": {
           "Unity.NSL.EndPointBuilder.dll": {
-            "assemblyVersion": "2024.4.23.1244",
-            "fileVersion": "2024.4.23.1244"
+            "assemblyVersion": "2024.5.11.1441",
+            "fileVersion": "2024.5.11.1441"
           }
         }
       },
-      "Unity.NSL.Extensions.DBEngine.Reference/2024.4.23.1244": {
+      "Unity.NSL.Extensions.DBEngine.Reference/2024.5.11.1441": {
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.dll": {
-            "assemblyVersion": "2024.4.23.1244",
-            "fileVersion": "2024.4.23.1244"
+            "assemblyVersion": "2024.5.11.1441",
+            "fileVersion": "2024.5.11.1441"
           }
         }
       },
-      "Unity.NSL.SocketCore.Reference/2024.4.23.1244": {
+      "Unity.NSL.SocketCore.Reference/2024.5.11.1441": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {
-            "assemblyVersion": "2024.4.23.1244",
-            "fileVersion": "2024.4.23.1244"
+            "assemblyVersion": "2024.5.11.1441",
+            "fileVersion": "2024.5.11.1441"
           }
         }
       },
-      "Unity.NSL.SocketServer.Reference/2024.4.23.1244": {
+      "Unity.NSL.SocketServer.Reference/2024.5.11.1441": {
         "runtime": {
           "Unity.NSL.SocketServer.dll": {
-            "assemblyVersion": "2024.4.23.1244",
-            "fileVersion": "2024.4.23.1244"
+            "assemblyVersion": "2024.5.11.1441",
+            "fileVersion": "2024.5.11.1441"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.Extensions.DBEngine.StaticQuery/2024.04.23.1244": {
+    "Unity.NSL.Extensions.DBEngine.StaticQuery/2024.05.11.1441": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.EndPointBuilder/2024.4.23.1244": {
+    "Unity.NSL.EndPointBuilder/2024.5.11.1441": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Extensions.DBEngine/2024.4.23.1244": {
+    "Unity.NSL.Extensions.DBEngine/2024.5.11.1441": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore/2024.4.23.1244": {
+    "Unity.NSL.SocketCore/2024.5.11.1441": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketServer/2024.4.23.1244": {
+    "Unity.NSL.SocketServer/2024.5.11.1441": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.EndPointBuilder.Reference/2024.4.23.1244": {
+    "Unity.NSL.EndPointBuilder.Reference/2024.5.11.1441": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Extensions.DBEngine.Reference/2024.4.23.1244": {
+    "Unity.NSL.Extensions.DBEngine.Reference/2024.5.11.1441": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore.Reference/2024.4.23.1244": {
+    "Unity.NSL.SocketCore.Reference/2024.5.11.1441": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketServer.Reference/2024.4.23.1244": {
+    "Unity.NSL.SocketServer.Reference/2024.5.11.1441": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
