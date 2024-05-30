@@ -4,7 +4,8 @@ PluginImporter:
   externalObjects: {}
   serializedVersion: 2
   iconMap: {}
-  executionOrder: {}
+  executionOrder:
+    NSL.Utils.Unity.ThreadHelper: -2000
   defineConstraints: []
   isPreloaded: 0
   isOverridable: 1
