@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Unity.NSL.Generators.ClientPointGenerator.Shared/2024.05.11.1441": {
+      "Unity.NSL.Generators.ClientPointGenerator.Shared/2024.06.25.2151": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "8.0.0",
           "NETStandard.Library": "2.0.3"
@@ -74,7 +74,7 @@
     }
   },
   "libraries": {
-    "Unity.NSL.Generators.ClientPointGenerator.Shared/2024.05.11.1441": {
+    "Unity.NSL.Generators.ClientPointGenerator.Shared/2024.06.25.2151": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
