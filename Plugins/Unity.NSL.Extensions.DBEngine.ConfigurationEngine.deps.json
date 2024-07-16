@@ -7,14 +7,14 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.NSL.Extensions.DBEngine.ConfigurationEngine/2024.06.25.2151": {
+      "Unity.NSL.Extensions.DBEngine.ConfigurationEngine/2024.07.15.2311": {
         "dependencies": {
-          "Unity.NSL.ConfigurationEngine": "2024.6.25.2151",
-          "Unity.NSL.Extensions.DBEngine": "2024.6.25.2151",
-          "Unity.NSL.ConfigurationEngine.Reference": "2024.6.25.2151",
-          "Unity.NSL.Extensions.DBEngine.Reference": "2024.6.25.2151",
-          "Unity.NSL.SocketCore.Reference": "2024.6.25.2151",
-          "Unity.NSL.Utils.Reference": "2024.6.25.2151"
+          "Unity.NSL.ConfigurationEngine": "2024.7.15.2311",
+          "Unity.NSL.Extensions.DBEngine": "2024.7.15.2311",
+          "Unity.NSL.ConfigurationEngine.Reference": "2024.7.15.2311",
+          "Unity.NSL.Extensions.DBEngine.Reference": "2024.7.15.2311",
+          "Unity.NSL.SocketCore.Reference": "2024.7.15.2311",
+          "Unity.NSL.Utils.Reference": "2024.7.15.2311"
         },
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.ConfigurationEngine.dll": {}
@@ -28,26 +28,26 @@
           }
         }
       },
-      "Unity.NSL.ConfigurationEngine/2024.6.25.2151": {
+      "Unity.NSL.ConfigurationEngine/2024.7.15.2311": {
         "dependencies": {
-          "Unity.NSL.SocketCore": "2024.6.25.2151",
-          "Unity.NSL.Utils": "2024.6.25.2151"
+          "Unity.NSL.SocketCore": "2024.7.15.2311",
+          "Unity.NSL.Utils": "2024.7.15.2311"
         },
         "runtime": {
           "Unity.NSL.ConfigurationEngine.dll": {}
         }
       },
-      "Unity.NSL.Extensions.DBEngine/2024.6.25.2151": {
+      "Unity.NSL.Extensions.DBEngine/2024.7.15.2311": {
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.dll": {}
         }
       },
-      "Unity.NSL.SocketCore/2024.6.25.2151": {
+      "Unity.NSL.SocketCore/2024.7.15.2311": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {}
         }
       },
-      "Unity.NSL.Utils/2024.6.25.2151": {
+      "Unity.NSL.Utils/2024.7.15.2311": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         },
@@ -55,42 +55,42 @@
           "Unity.NSL.Utils.dll": {}
         }
       },
-      "Unity.NSL.ConfigurationEngine.Reference/2024.6.25.2151": {
+      "Unity.NSL.ConfigurationEngine.Reference/2024.7.15.2311": {
         "runtime": {
           "Unity.NSL.ConfigurationEngine.dll": {
-            "assemblyVersion": "2024.6.25.2151",
-            "fileVersion": "2024.6.25.2151"
+            "assemblyVersion": "2024.7.15.2311",
+            "fileVersion": "2024.7.15.2311"
           }
         }
       },
-      "Unity.NSL.Extensions.DBEngine.Reference/2024.6.25.2151": {
+      "Unity.NSL.Extensions.DBEngine.Reference/2024.7.15.2311": {
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.dll": {
-            "assemblyVersion": "2024.6.25.2151",
-            "fileVersion": "2024.6.25.2151"
+            "assemblyVersion": "2024.7.15.2311",
+            "fileVersion": "2024.7.15.2311"
           }
         }
       },
-      "Unity.NSL.SocketCore.Reference/2024.6.25.2151": {
+      "Unity.NSL.SocketCore.Reference/2024.7.15.2311": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {
-            "assemblyVersion": "2024.6.25.2151",
-            "fileVersion": "2024.6.25.2151"
+            "assemblyVersion": "2024.7.15.2311",
+            "fileVersion": "2024.7.15.2311"
           }
         }
       },
-      "Unity.NSL.Utils.Reference/2024.6.25.2151": {
+      "Unity.NSL.Utils.Reference/2024.7.15.2311": {
         "runtime": {
           "Unity.NSL.Utils.dll": {
-            "assemblyVersion": "2024.6.25.2151",
-            "fileVersion": "2024.6.25.2151"
+            "assemblyVersion": "2024.7.15.2311",
+            "fileVersion": "2024.7.15.2311"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.Extensions.DBEngine.ConfigurationEngine/2024.06.25.2151": {
+    "Unity.NSL.Extensions.DBEngine.ConfigurationEngine/2024.07.15.2311": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -102,42 +102,42 @@
       "path": "newtonsoft.json/13.0.3",
       "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
-    "Unity.NSL.ConfigurationEngine/2024.6.25.2151": {
+    "Unity.NSL.ConfigurationEngine/2024.7.15.2311": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Extensions.DBEngine/2024.6.25.2151": {
+    "Unity.NSL.Extensions.DBEngine/2024.7.15.2311": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore/2024.6.25.2151": {
+    "Unity.NSL.SocketCore/2024.7.15.2311": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Utils/2024.6.25.2151": {
+    "Unity.NSL.Utils/2024.7.15.2311": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.ConfigurationEngine.Reference/2024.6.25.2151": {
+    "Unity.NSL.ConfigurationEngine.Reference/2024.7.15.2311": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Extensions.DBEngine.Reference/2024.6.25.2151": {
+    "Unity.NSL.Extensions.DBEngine.Reference/2024.7.15.2311": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore.Reference/2024.6.25.2151": {
+    "Unity.NSL.SocketCore.Reference/2024.7.15.2311": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Utils.Reference/2024.6.25.2151": {
+    "Unity.NSL.Utils.Reference/2024.7.15.2311": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

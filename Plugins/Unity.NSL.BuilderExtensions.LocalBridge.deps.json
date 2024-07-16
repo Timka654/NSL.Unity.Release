@@ -7,97 +7,97 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.NSL.BuilderExtensions.LocalBridge/2024.06.25.2151": {
+      "Unity.NSL.BuilderExtensions.LocalBridge/2024.07.15.2311": {
         "dependencies": {
-          "Unity.NSL.EndPointBuilder": "2024.6.25.2151",
-          "Unity.NSL.LocalBridge": "2024.6.25.2151",
-          "Unity.NSL.EndPointBuilder.Reference": "2024.6.25.2151",
-          "Unity.NSL.LocalBridge.Reference": "2024.6.25.2151",
-          "Unity.NSL.SocketCore.Reference": "2024.6.25.2151"
+          "Unity.NSL.EndPointBuilder": "2024.7.15.2311",
+          "Unity.NSL.LocalBridge": "2024.7.15.2311",
+          "Unity.NSL.EndPointBuilder.Reference": "2024.7.15.2311",
+          "Unity.NSL.LocalBridge.Reference": "2024.7.15.2311",
+          "Unity.NSL.SocketCore.Reference": "2024.7.15.2311"
         },
         "runtime": {
           "Unity.NSL.BuilderExtensions.LocalBridge.dll": {}
         }
       },
-      "Unity.NSL.EndPointBuilder/2024.6.25.2151": {
+      "Unity.NSL.EndPointBuilder/2024.7.15.2311": {
         "dependencies": {
-          "Unity.NSL.SocketCore": "2024.6.25.2151"
+          "Unity.NSL.SocketCore": "2024.7.15.2311"
         },
         "runtime": {
           "Unity.NSL.EndPointBuilder.dll": {}
         }
       },
-      "Unity.NSL.LocalBridge/2024.6.25.2151": {
+      "Unity.NSL.LocalBridge/2024.7.15.2311": {
         "dependencies": {
-          "Unity.NSL.SocketCore": "2024.6.25.2151"
+          "Unity.NSL.SocketCore": "2024.7.15.2311"
         },
         "runtime": {
           "Unity.NSL.LocalBridge.dll": {}
         }
       },
-      "Unity.NSL.SocketCore/2024.6.25.2151": {
+      "Unity.NSL.SocketCore/2024.7.15.2311": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {}
         }
       },
-      "Unity.NSL.EndPointBuilder.Reference/2024.6.25.2151": {
+      "Unity.NSL.EndPointBuilder.Reference/2024.7.15.2311": {
         "runtime": {
           "Unity.NSL.EndPointBuilder.dll": {
-            "assemblyVersion": "2024.6.25.2151",
-            "fileVersion": "2024.6.25.2151"
+            "assemblyVersion": "2024.7.15.2311",
+            "fileVersion": "2024.7.15.2311"
           }
         }
       },
-      "Unity.NSL.LocalBridge.Reference/2024.6.25.2151": {
+      "Unity.NSL.LocalBridge.Reference/2024.7.15.2311": {
         "runtime": {
           "Unity.NSL.LocalBridge.dll": {
-            "assemblyVersion": "2024.6.25.2151",
-            "fileVersion": "2024.6.25.2151"
+            "assemblyVersion": "2024.7.15.2311",
+            "fileVersion": "2024.7.15.2311"
           }
         }
       },
-      "Unity.NSL.SocketCore.Reference/2024.6.25.2151": {
+      "Unity.NSL.SocketCore.Reference/2024.7.15.2311": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {
-            "assemblyVersion": "2024.6.25.2151",
-            "fileVersion": "2024.6.25.2151"
+            "assemblyVersion": "2024.7.15.2311",
+            "fileVersion": "2024.7.15.2311"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.BuilderExtensions.LocalBridge/2024.06.25.2151": {
+    "Unity.NSL.BuilderExtensions.LocalBridge/2024.07.15.2311": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.EndPointBuilder/2024.6.25.2151": {
+    "Unity.NSL.EndPointBuilder/2024.7.15.2311": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.LocalBridge/2024.6.25.2151": {
+    "Unity.NSL.LocalBridge/2024.7.15.2311": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore/2024.6.25.2151": {
+    "Unity.NSL.SocketCore/2024.7.15.2311": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.EndPointBuilder.Reference/2024.6.25.2151": {
+    "Unity.NSL.EndPointBuilder.Reference/2024.7.15.2311": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.LocalBridge.Reference/2024.6.25.2151": {
+    "Unity.NSL.LocalBridge.Reference/2024.7.15.2311": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore.Reference/2024.6.25.2151": {
+    "Unity.NSL.SocketCore.Reference/2024.7.15.2311": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
