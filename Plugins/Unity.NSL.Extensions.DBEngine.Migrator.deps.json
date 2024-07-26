@@ -7,42 +7,42 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.NSL.Extensions.DBEngine.Migrator/2024.07.17.2124": {
+      "Unity.NSL.Extensions.DBEngine.Migrator/2024.07.26.0336": {
         "dependencies": {
-          "Unity.NSL.Extensions.DBEngine": "2024.7.17.2124",
-          "Unity.NSL.Extensions.DBEngine.Reference": "2024.7.17.2124"
+          "Unity.NSL.Extensions.DBEngine": "2024.7.26.336",
+          "Unity.NSL.Extensions.DBEngine.Reference": "2024.7.26.336"
         },
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.Migrator.dll": {}
         }
       },
-      "Unity.NSL.Extensions.DBEngine/2024.7.17.2124": {
+      "Unity.NSL.Extensions.DBEngine/2024.7.26.336": {
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.dll": {}
         }
       },
-      "Unity.NSL.Extensions.DBEngine.Reference/2024.7.17.2124": {
+      "Unity.NSL.Extensions.DBEngine.Reference/2024.7.26.336": {
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.dll": {
-            "assemblyVersion": "2024.7.17.2124",
-            "fileVersion": "2024.7.17.2124"
+            "assemblyVersion": "2024.7.26.336",
+            "fileVersion": "2024.7.26.336"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.Extensions.DBEngine.Migrator/2024.07.17.2124": {
+    "Unity.NSL.Extensions.DBEngine.Migrator/2024.07.26.0336": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Extensions.DBEngine/2024.7.17.2124": {
+    "Unity.NSL.Extensions.DBEngine/2024.7.26.336": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Extensions.DBEngine.Reference/2024.7.17.2124": {
+    "Unity.NSL.Extensions.DBEngine.Reference/2024.7.26.336": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
