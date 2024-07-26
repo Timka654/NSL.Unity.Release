@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Unity.NSL.Generators.FillTypeGenerator.Attributes/2024.07.26.1328": {
+      "Unity.NSL.Generators.FillTypeGenerator.Attributes/2024.07.26.1541": {
         "dependencies": {
           "NETStandard.Library": "2.0.3"
         },
@@ -24,7 +24,7 @@
     }
   },
   "libraries": {
-    "Unity.NSL.Generators.FillTypeGenerator.Attributes/2024.07.26.1328": {
+    "Unity.NSL.Generators.FillTypeGenerator.Attributes/2024.07.26.1541": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
