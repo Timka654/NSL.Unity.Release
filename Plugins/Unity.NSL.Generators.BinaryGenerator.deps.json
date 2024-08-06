@@ -7,15 +7,15 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Unity.NSL.Generators.BinaryGenerator/2024.07.26.1541": {
+      "Unity.NSL.Generators.BinaryGenerator/2024.08.06.1532": {
         "dependencies": {
           "Microsoft.CodeAnalysis.Common": "3.8.0",
           "NETStandard.Library": "2.0.3",
-          "Unity.NSL.Generators.Utils": "2024.7.26.1541",
-          "Unity.NSL.SocketCore": "2024.7.26.1541",
-          "Unity.NSL.Generators.Utils.Reference": "2024.7.26.1541",
-          "Unity.NSL.SocketCore.Reference": "2024.7.26.1541",
-          "Unity.NSL.Utils.Reference": "2024.7.26.1541"
+          "Unity.NSL.Generators.Utils": "2024.8.6.1532",
+          "Unity.NSL.SocketCore": "2024.8.6.1532",
+          "Unity.NSL.Generators.Utils.Reference": "2024.8.6.1532",
+          "Unity.NSL.SocketCore.Reference": "2024.8.6.1532",
+          "Unity.NSL.Utils.Reference": "2024.8.6.1532"
         },
         "runtime": {
           "Unity.NSL.Generators.BinaryGenerator.dll": {}
@@ -175,20 +175,20 @@
           }
         }
       },
-      "Unity.NSL.Generators.Utils/2024.7.26.1541": {
+      "Unity.NSL.Generators.Utils/2024.8.6.1532": {
         "runtime": {
           "Unity.NSL.Generators.Utils.dll": {}
         }
       },
-      "Unity.NSL.SocketCore/2024.7.26.1541": {
+      "Unity.NSL.SocketCore/2024.8.6.1532": {
         "dependencies": {
-          "Unity.NSL.Utils": "2024.7.26.1541"
+          "Unity.NSL.Utils": "2024.8.6.1532"
         },
         "runtime": {
           "Unity.NSL.SocketCore.dll": {}
         }
       },
-      "Unity.NSL.Utils/2024.7.26.1541": {
+      "Unity.NSL.Utils/2024.8.6.1532": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         },
@@ -196,34 +196,34 @@
           "Unity.NSL.Utils.dll": {}
         }
       },
-      "Unity.NSL.Generators.Utils.Reference/2024.7.26.1541": {
+      "Unity.NSL.Generators.Utils.Reference/2024.8.6.1532": {
         "runtime": {
           "Unity.NSL.Generators.Utils.dll": {
-            "assemblyVersion": "2024.7.26.1541",
-            "fileVersion": "2024.7.26.1541"
+            "assemblyVersion": "2024.8.6.1532",
+            "fileVersion": "2024.8.6.1532"
           }
         }
       },
-      "Unity.NSL.SocketCore.Reference/2024.7.26.1541": {
+      "Unity.NSL.SocketCore.Reference/2024.8.6.1532": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {
-            "assemblyVersion": "2024.7.26.1541",
-            "fileVersion": "2024.7.26.1541"
+            "assemblyVersion": "2024.8.6.1532",
+            "fileVersion": "2024.8.6.1532"
           }
         }
       },
-      "Unity.NSL.Utils.Reference/2024.7.26.1541": {
+      "Unity.NSL.Utils.Reference/2024.8.6.1532": {
         "runtime": {
           "Unity.NSL.Utils.dll": {
-            "assemblyVersion": "2024.7.26.1541",
-            "fileVersion": "2024.7.26.1541"
+            "assemblyVersion": "2024.8.6.1532",
+            "fileVersion": "2024.8.6.1532"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.Generators.BinaryGenerator/2024.07.26.1541": {
+    "Unity.NSL.Generators.BinaryGenerator/2024.08.06.1532": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -319,32 +319,32 @@
       "path": "system.threading.tasks.extensions/4.5.4",
       "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
     },
-    "Unity.NSL.Generators.Utils/2024.7.26.1541": {
+    "Unity.NSL.Generators.Utils/2024.8.6.1532": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore/2024.7.26.1541": {
+    "Unity.NSL.SocketCore/2024.8.6.1532": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Utils/2024.7.26.1541": {
+    "Unity.NSL.Utils/2024.8.6.1532": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Generators.Utils.Reference/2024.7.26.1541": {
+    "Unity.NSL.Generators.Utils.Reference/2024.8.6.1532": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore.Reference/2024.7.26.1541": {
+    "Unity.NSL.SocketCore.Reference/2024.8.6.1532": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Utils.Reference/2024.7.26.1541": {
+    "Unity.NSL.Utils.Reference/2024.8.6.1532": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
