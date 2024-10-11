@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Unity.NSL.Generators.HttpEndPointGenerator.Shared/2024.10.04.1349": {
+      "Unity.NSL.Generators.HttpEndPointGenerator.Shared/2024.10.11.1043": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "8.0.0",
           "NETStandard.Library": "2.0.3"
@@ -74,7 +74,7 @@
     }
   },
   "libraries": {
-    "Unity.NSL.Generators.HttpEndPointGenerator.Shared/2024.10.04.1349": {
+    "Unity.NSL.Generators.HttpEndPointGenerator.Shared/2024.10.11.1043": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
