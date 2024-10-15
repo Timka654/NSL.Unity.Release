@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Unity.NSL.Utils/2024.10.11.1115": {
+      "Unity.NSL.Utils/2024.10.15.1243": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "13.0.3"
@@ -33,7 +33,7 @@
     }
   },
   "libraries": {
-    "Unity.NSL.Utils/2024.10.11.1115": {
+    "Unity.NSL.Utils/2024.10.15.1243": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
