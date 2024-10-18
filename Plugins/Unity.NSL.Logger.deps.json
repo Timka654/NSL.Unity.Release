@@ -7,12 +7,12 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.NSL.Logger/2024.10.15.1243": {
+      "Unity.NSL.Logger/2024.10.18.1413": {
         "dependencies": {
-          "Unity.NSL.SocketCore": "2024.10.15.1243",
-          "Unity.NSL.Utils": "2024.10.15.1243",
-          "Unity.NSL.SocketCore.Reference": "2024.10.15.1243",
-          "Unity.NSL.Utils.Reference": "2024.10.15.1243"
+          "Unity.NSL.SocketCore": "2024.10.18.1413",
+          "Unity.NSL.Utils": "2024.10.18.1413",
+          "Unity.NSL.SocketCore.Reference": "2024.10.18.1413",
+          "Unity.NSL.Utils.Reference": "2024.10.18.1413"
         },
         "runtime": {
           "Unity.NSL.Logger.dll": {}
@@ -26,48 +26,48 @@
           }
         }
       },
-      "Unity.NSL.SocketCore/2024.10.15.1243": {
+      "Unity.NSL.SocketCore/2024.10.18.1413": {
         "dependencies": {
-          "Unity.NSL.Utils": "2024.10.15.1243"
+          "Unity.NSL.Utils": "2024.10.18.1413"
         },
         "runtime": {
           "Unity.NSL.SocketCore.dll": {
-            "assemblyVersion": "2024.10.15.1243",
+            "assemblyVersion": "2024.10.18.1413",
             "fileVersion": ""
           }
         }
       },
-      "Unity.NSL.Utils/2024.10.15.1243": {
+      "Unity.NSL.Utils/2024.10.18.1413": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "Unity.NSL.Utils.dll": {
-            "assemblyVersion": "2024.10.15.1243",
+            "assemblyVersion": "2024.10.18.1413",
             "fileVersion": ""
           }
         }
       },
-      "Unity.NSL.SocketCore.Reference/2024.10.15.1243": {
+      "Unity.NSL.SocketCore.Reference/2024.10.18.1413": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {
-            "assemblyVersion": "2024.10.15.1243",
-            "fileVersion": "2024.10.15.1243"
+            "assemblyVersion": "2024.10.18.1413",
+            "fileVersion": "2024.10.18.1413"
           }
         }
       },
-      "Unity.NSL.Utils.Reference/2024.10.15.1243": {
+      "Unity.NSL.Utils.Reference/2024.10.18.1413": {
         "runtime": {
           "Unity.NSL.Utils.dll": {
-            "assemblyVersion": "2024.10.15.1243",
-            "fileVersion": "2024.10.15.1243"
+            "assemblyVersion": "2024.10.18.1413",
+            "fileVersion": "2024.10.18.1413"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.Logger/2024.10.15.1243": {
+    "Unity.NSL.Logger/2024.10.18.1413": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -79,22 +79,22 @@
       "path": "newtonsoft.json/13.0.3",
       "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
-    "Unity.NSL.SocketCore/2024.10.15.1243": {
+    "Unity.NSL.SocketCore/2024.10.18.1413": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Utils/2024.10.15.1243": {
+    "Unity.NSL.Utils/2024.10.18.1413": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore.Reference/2024.10.15.1243": {
+    "Unity.NSL.SocketCore.Reference/2024.10.18.1413": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Utils.Reference/2024.10.15.1243": {
+    "Unity.NSL.Utils.Reference/2024.10.18.1413": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "NSL.Utils.Unity/2024.10.15.1243": {
+      "NSL.Utils.Unity/2024.10.18.1413": {
         "dependencies": {
           "UnityEngine": "0.0.0.0"
         },
@@ -26,7 +26,7 @@
     }
   },
   "libraries": {
-    "NSL.Utils.Unity/2024.10.15.1243": {
+    "NSL.Utils.Unity/2024.10.18.1413": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
