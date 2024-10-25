@@ -7,16 +7,16 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.NSL.UDP/2024.10.24.1211": {
+      "Unity.NSL.UDP/2024.10.25.1449": {
         "dependencies": {
           "STUN": "0.5.0",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0",
-          "Unity.NSL.SocketCore": "2024.10.24.1211",
-          "Unity.NSL.SocketServer": "2024.10.24.1211",
-          "Unity.NSL.EndPointBuilder.Reference": "2024.10.24.1211",
-          "Unity.NSL.SocketCore.Reference": "2024.10.24.1211",
-          "Unity.NSL.SocketServer.Reference": "2024.10.24.1211",
-          "Unity.NSL.Utils.Reference": "2024.10.24.1211"
+          "Unity.NSL.SocketCore": "2024.10.25.1449",
+          "Unity.NSL.SocketServer": "2024.10.25.1449",
+          "Unity.NSL.EndPointBuilder.Reference": "2024.10.25.1449",
+          "Unity.NSL.SocketCore.Reference": "2024.10.25.1449",
+          "Unity.NSL.SocketServer.Reference": "2024.10.25.1449",
+          "Unity.NSL.Utils.Reference": "2024.10.25.1449"
         },
         "runtime": {
           "Unity.NSL.UDP.dll": {}
@@ -46,87 +46,87 @@
           }
         }
       },
-      "Unity.NSL.EndPointBuilder/2024.10.24.1211": {
+      "Unity.NSL.EndPointBuilder/2024.10.25.1449": {
         "dependencies": {
-          "Unity.NSL.SocketCore": "2024.10.24.1211"
+          "Unity.NSL.SocketCore": "2024.10.25.1449"
         },
         "runtime": {
           "Unity.NSL.EndPointBuilder.dll": {
-            "assemblyVersion": "2024.10.24.1211",
+            "assemblyVersion": "2024.10.25.1449",
             "fileVersion": ""
           }
         }
       },
-      "Unity.NSL.SocketCore/2024.10.24.1211": {
+      "Unity.NSL.SocketCore/2024.10.25.1449": {
         "dependencies": {
-          "Unity.NSL.Utils": "2024.10.24.1211"
+          "Unity.NSL.Utils": "2024.10.25.1449"
         },
         "runtime": {
           "Unity.NSL.SocketCore.dll": {
-            "assemblyVersion": "2024.10.24.1211",
+            "assemblyVersion": "2024.10.25.1449",
             "fileVersion": ""
           }
         }
       },
-      "Unity.NSL.SocketServer/2024.10.24.1211": {
+      "Unity.NSL.SocketServer/2024.10.25.1449": {
         "dependencies": {
-          "Unity.NSL.EndPointBuilder": "2024.10.24.1211",
-          "Unity.NSL.SocketCore": "2024.10.24.1211"
+          "Unity.NSL.EndPointBuilder": "2024.10.25.1449",
+          "Unity.NSL.SocketCore": "2024.10.25.1449"
         },
         "runtime": {
           "Unity.NSL.SocketServer.dll": {
-            "assemblyVersion": "2024.10.24.1211",
+            "assemblyVersion": "2024.10.25.1449",
             "fileVersion": ""
           }
         }
       },
-      "Unity.NSL.Utils/2024.10.24.1211": {
+      "Unity.NSL.Utils/2024.10.25.1449": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "Unity.NSL.Utils.dll": {
-            "assemblyVersion": "2024.10.24.1211",
+            "assemblyVersion": "2024.10.25.1449",
             "fileVersion": ""
           }
         }
       },
-      "Unity.NSL.EndPointBuilder.Reference/2024.10.24.1211": {
+      "Unity.NSL.EndPointBuilder.Reference/2024.10.25.1449": {
         "runtime": {
           "Unity.NSL.EndPointBuilder.dll": {
-            "assemblyVersion": "2024.10.24.1211",
-            "fileVersion": "2024.10.24.1211"
+            "assemblyVersion": "2024.10.25.1449",
+            "fileVersion": "2024.10.25.1449"
           }
         }
       },
-      "Unity.NSL.SocketCore.Reference/2024.10.24.1211": {
+      "Unity.NSL.SocketCore.Reference/2024.10.25.1449": {
         "runtime": {
           "Unity.NSL.SocketCore.dll": {
-            "assemblyVersion": "2024.10.24.1211",
-            "fileVersion": "2024.10.24.1211"
+            "assemblyVersion": "2024.10.25.1449",
+            "fileVersion": "2024.10.25.1449"
           }
         }
       },
-      "Unity.NSL.SocketServer.Reference/2024.10.24.1211": {
+      "Unity.NSL.SocketServer.Reference/2024.10.25.1449": {
         "runtime": {
           "Unity.NSL.SocketServer.dll": {
-            "assemblyVersion": "2024.10.24.1211",
-            "fileVersion": "2024.10.24.1211"
+            "assemblyVersion": "2024.10.25.1449",
+            "fileVersion": "2024.10.25.1449"
           }
         }
       },
-      "Unity.NSL.Utils.Reference/2024.10.24.1211": {
+      "Unity.NSL.Utils.Reference/2024.10.25.1449": {
         "runtime": {
           "Unity.NSL.Utils.dll": {
-            "assemblyVersion": "2024.10.24.1211",
-            "fileVersion": "2024.10.24.1211"
+            "assemblyVersion": "2024.10.25.1449",
+            "fileVersion": "2024.10.25.1449"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.UDP/2024.10.24.1211": {
+    "Unity.NSL.UDP/2024.10.25.1449": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -152,42 +152,42 @@
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
-    "Unity.NSL.EndPointBuilder/2024.10.24.1211": {
+    "Unity.NSL.EndPointBuilder/2024.10.25.1449": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore/2024.10.24.1211": {
+    "Unity.NSL.SocketCore/2024.10.25.1449": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketServer/2024.10.24.1211": {
+    "Unity.NSL.SocketServer/2024.10.25.1449": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Utils/2024.10.24.1211": {
+    "Unity.NSL.Utils/2024.10.25.1449": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.EndPointBuilder.Reference/2024.10.24.1211": {
+    "Unity.NSL.EndPointBuilder.Reference/2024.10.25.1449": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketCore.Reference/2024.10.24.1211": {
+    "Unity.NSL.SocketCore.Reference/2024.10.25.1449": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.SocketServer.Reference/2024.10.24.1211": {
+    "Unity.NSL.SocketServer.Reference/2024.10.25.1449": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Utils.Reference/2024.10.24.1211": {
+    "Unity.NSL.Utils.Reference/2024.10.25.1449": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
