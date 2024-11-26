@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.NSL.Utils.Server/2024.11.25.1552": {
+      "Unity.NSL.Utils.Server/2024.11.26.1219": {
         "runtime": {
           "Unity.NSL.Utils.Server.dll": {}
         }
@@ -15,7 +15,7 @@
     }
   },
   "libraries": {
-    "Unity.NSL.Utils.Server/2024.11.25.1552": {
+    "Unity.NSL.Utils.Server/2024.11.26.1219": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
