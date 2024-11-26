@@ -7,45 +7,45 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.NSL.Extensions.DBEngine.CmdQueue/2024.11.26.1245": {
+      "Unity.NSL.Extensions.DBEngine.CmdQueue/2024.11.26.1544": {
         "dependencies": {
-          "Unity.NSL.Extensions.DBEngine": "2024.11.26.1245",
-          "Unity.NSL.Extensions.DBEngine.Reference": "2024.11.26.1245"
+          "Unity.NSL.Extensions.DBEngine": "2024.11.26.1544",
+          "Unity.NSL.Extensions.DBEngine.Reference": "2024.11.26.1544"
         },
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.CmdQueue.dll": {}
         }
       },
-      "Unity.NSL.Extensions.DBEngine/2024.11.26.1245": {
+      "Unity.NSL.Extensions.DBEngine/2024.11.26.1544": {
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.dll": {
-            "assemblyVersion": "2024.11.26.1245",
+            "assemblyVersion": "2024.11.26.1544",
             "fileVersion": ""
           }
         }
       },
-      "Unity.NSL.Extensions.DBEngine.Reference/2024.11.26.1245": {
+      "Unity.NSL.Extensions.DBEngine.Reference/2024.11.26.1544": {
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.dll": {
-            "assemblyVersion": "2024.11.26.1245",
-            "fileVersion": "2024.11.26.1245"
+            "assemblyVersion": "2024.11.26.1544",
+            "fileVersion": "2024.11.26.1544"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.Extensions.DBEngine.CmdQueue/2024.11.26.1245": {
+    "Unity.NSL.Extensions.DBEngine.CmdQueue/2024.11.26.1544": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Extensions.DBEngine/2024.11.26.1245": {
+    "Unity.NSL.Extensions.DBEngine/2024.11.26.1544": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Extensions.DBEngine.Reference/2024.11.26.1245": {
+    "Unity.NSL.Extensions.DBEngine.Reference/2024.11.26.1544": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
