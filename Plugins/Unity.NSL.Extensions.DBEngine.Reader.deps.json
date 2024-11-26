@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.NSL.Extensions.DBEngine.Reader/2024.11.26.1219": {
+      "Unity.NSL.Extensions.DBEngine.Reader/2024.11.26.1233": {
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.Reader.dll": {}
         }
@@ -15,7 +15,7 @@
     }
   },
   "libraries": {
-    "Unity.NSL.Extensions.DBEngine.Reader/2024.11.26.1219": {
+    "Unity.NSL.Extensions.DBEngine.Reader/2024.11.26.1233": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
