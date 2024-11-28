@@ -7,14 +7,14 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Unity.NSL.Generators.ClientPointGenerator/2024.11.26.1544": {
+      "Unity.NSL.Generators.ClientPointGenerator/2024.11.28.1452": {
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp": "3.8.0",
           "NETStandard.Library": "2.0.3",
-          "Unity.NSL.Generators.BinaryGenerator": "2024.11.26.1544",
-          "Unity.NSL.Generators.Utils": "2024.11.26.1544",
-          "Unity.NSL.Generators.BinaryGenerator.Reference": "2024.11.26.1544",
-          "Unity.NSL.Generators.Utils.Reference": "2024.11.26.1544"
+          "Unity.NSL.Generators.BinaryGenerator": "2024.11.28.1452",
+          "Unity.NSL.Generators.Utils": "2024.11.28.1452",
+          "Unity.NSL.Generators.BinaryGenerator.Reference": "2024.11.28.1452",
+          "Unity.NSL.Generators.Utils.Reference": "2024.11.28.1452"
         },
         "runtime": {
           "Unity.NSL.Generators.ClientPointGenerator.dll": {}
@@ -218,42 +218,42 @@
           }
         }
       },
-      "Unity.NSL.Generators.BinaryGenerator/2024.11.26.1544": {
+      "Unity.NSL.Generators.BinaryGenerator/2024.11.28.1452": {
         "runtime": {
           "Unity.NSL.Generators.BinaryGenerator.dll": {
-            "assemblyVersion": "2024.11.26.1544",
+            "assemblyVersion": "2024.11.28.1452",
             "fileVersion": ""
           }
         }
       },
-      "Unity.NSL.Generators.Utils/2024.11.26.1544": {
+      "Unity.NSL.Generators.Utils/2024.11.28.1452": {
         "runtime": {
           "Unity.NSL.Generators.Utils.dll": {
-            "assemblyVersion": "2024.11.26.1544",
+            "assemblyVersion": "2024.11.28.1452",
             "fileVersion": ""
           }
         }
       },
-      "Unity.NSL.Generators.BinaryGenerator.Reference/2024.11.26.1544": {
+      "Unity.NSL.Generators.BinaryGenerator.Reference/2024.11.28.1452": {
         "runtime": {
           "Unity.NSL.Generators.BinaryGenerator.dll": {
-            "assemblyVersion": "2024.11.26.1544",
-            "fileVersion": "2024.11.26.1544"
+            "assemblyVersion": "2024.11.28.1452",
+            "fileVersion": "2024.11.28.1452"
           }
         }
       },
-      "Unity.NSL.Generators.Utils.Reference/2024.11.26.1544": {
+      "Unity.NSL.Generators.Utils.Reference/2024.11.28.1452": {
         "runtime": {
           "Unity.NSL.Generators.Utils.dll": {
-            "assemblyVersion": "2024.11.26.1544",
-            "fileVersion": "2024.11.26.1544"
+            "assemblyVersion": "2024.11.28.1452",
+            "fileVersion": "2024.11.28.1452"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.Generators.ClientPointGenerator/2024.11.26.1544": {
+    "Unity.NSL.Generators.ClientPointGenerator/2024.11.28.1452": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -349,22 +349,22 @@
       "path": "system.threading.tasks.extensions/4.5.4",
       "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
     },
-    "Unity.NSL.Generators.BinaryGenerator/2024.11.26.1544": {
+    "Unity.NSL.Generators.BinaryGenerator/2024.11.28.1452": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Generators.Utils/2024.11.26.1544": {
+    "Unity.NSL.Generators.Utils/2024.11.28.1452": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Generators.BinaryGenerator.Reference/2024.11.26.1544": {
+    "Unity.NSL.Generators.BinaryGenerator.Reference/2024.11.28.1452": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Generators.Utils.Reference/2024.11.26.1544": {
+    "Unity.NSL.Generators.Utils.Reference/2024.11.28.1452": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
