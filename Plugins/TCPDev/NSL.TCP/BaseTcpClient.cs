@@ -1,4 +1,5 @@
-﻿using NSL.SocketCore;
+﻿using Microsoft.Extensions.ObjectPool;
+using NSL.SocketCore;
 using NSL.SocketCore.Utils;
 using NSL.SocketCore.Utils.Buffer;
 using NSL.SocketCore.Utils.Cipher;
@@ -16,6 +17,7 @@ using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Channels;
 using System.Threading.Tasks;
+using ZXing;
 
 namespace NSL.TCP
 {
@@ -506,24 +508,44 @@ namespace NSL.TCP
         private Channel<byte[]> sendChannel = Channel.CreateUnbounded<byte[]>();
 
         private SocketAsyncEventArgs sendArgs;
+        ChannelReader<byte[]> sendChannelReader;
 
         private async void startSend()
         {
+            sendChannelReader = sendChannel.Reader;
+
+            ThreadHelper.InvokeOnMain(() => { UnityEngine.Debug.Log($"Start send buffer size {sclient.SendBufferSize} / timeout {sclient.SendTimeout}"); });
             sendArgs = new SocketAsyncEventArgs()
             {
                 SocketError = SocketError.Success,
-                BufferList = new List<ArraySegment<byte>>()
+                BufferList = new List<ArraySegment<byte>>(),
+                UserToken = false
             };
 
-            sendArgs.Completed += async (s, e) =>
-            {
-                while (!await sendProc(e)) { }
-            };
+            sendArgs.Completed += sendBufHandle;
 
-            while (!await sendProc(sendArgs)) { }
+            while (!await sendProc(sendArgs, false)) { }
+        }
+        public int maxSendTime = 0;
+
+        private int spc = 0;
+        private Stopwatch csw;
+
+        static ObjectPool<SocketAsyncEventArgs> sendBufferPool = ObjectPool.Create<SocketAsyncEventArgs>();
+
+        private async void sendBufHandle(object s, SocketAsyncEventArgs e)
+        {
+            while (!await sendProc(e, ((bool)e.UserToken))) { }
         }
 
-        private async Task<bool> sendProc(SocketAsyncEventArgs args)
+        private void returnBufferPool(SocketAsyncEventArgs args)
+        {
+            args.Completed -= sendBufHandle;
+            Interlocked.Decrement(ref spc);
+            sendBufferPool.Return(args);
+        }
+
+        private async Task<bool> sendProc(SocketAsyncEventArgs args, bool pooledObject)
         {
             byte[] buf = null;
 
@@ -532,42 +554,64 @@ namespace NSL.TCP
                 if (args.SocketError != SocketError.Success)
                 {
                     Data?.OnPacketSendFail(args.BufferList[0].Array, 0, args.BufferList[0].Count);
+
+                    if (pooledObject)
+                    {
+                        returnBufferPool(args);
+                    }
                     Disconnect();
                     return true;
                 }
+
+                var t = (int)(csw?.Elapsed.TotalMilliseconds ?? 0);
+
+                if (t > maxSendTime)
+                    maxSendTime = t;
 
                 var sclient = this.sclient;
 
                 if (disconnected || sclient == null)
                     return true;
 
-                var reader = sendChannel.Reader;
 
-                if (!reader.TryRead(out buf))
-                    buf = await reader.ReadAsync();
 
-                var pid = BitConverter.ToUInt16(buf, 4);
+                if (pooledObject)
+                {
+                    if (!sendChannelReader.TryRead(out buf))
+                    {
+                        returnBufferPool(args);
+                        return true;
+                    }
+                }
+                else
+                {
+                    if (!sendChannelReader.TryRead(out buf))
+                        buf = await sendChannelReader.ReadAsync();
+                }
 
-                ThreadHelper.InvokeOnMain(() => { UnityEngine.Debug.Log($"Send pid {pid}"); });
+                csw = Stopwatch.StartNew();
 
-                ArraySegment<byte> sndBuffer = outputCipher.Encode(buf, 0, buf.Length);
 
-                args.BufferList.Clear();
+                bool r = sendBuf(buf, args);
 
-                args.BufferList.Add(sndBuffer);
+                if (!pooledObject)
+                {
+                    while (sendChannelReader.TryRead(out buf))
+                    {
+                        args = sendBufferPool.Get();
+                        args.BufferList = new List<ArraySegment<byte>>();
+                        args.Completed += sendBufHandle;
+                        args.UserToken = true;
 
-                int s = (int)(sndBuffer.Count % rpSegmentSize);
 
-                s = (int)(rpSegmentSize - s);
-
-                if (s > 0)
-                    args.BufferList.Add(new ArraySegment<byte>(emptyArray, 0, s));
-
-                args.BufferList = args.BufferList;
+                        Interlocked.Increment(ref spc);
+                        sendBuf(buf, args);
+                    }
+                }
 
                 buf = null;
 
-                return sclient.SendAsync(args);
+                return r;
             }
             catch (NullReferenceException) { Disconnect(); }
             catch (ObjectDisposedException) { Disconnect(); }
@@ -582,6 +626,31 @@ namespace NSL.TCP
             }
 
             return true;
+        }
+
+        private bool sendBuf(byte[] buf, SocketAsyncEventArgs args)
+        {
+
+            var pid = BitConverter.ToUInt16(buf, 4);
+
+            ThreadHelper.InvokeOnMain(() => { UnityEngine.Debug.Log($"Send pid {pid} / wait {sendChannelReader.Count} /t {maxSendTime} /p {spc}"); });
+
+            ArraySegment<byte> sndBuffer = outputCipher.Encode(buf, 0, buf.Length);
+
+            args.BufferList.Clear();
+
+            args.BufferList.Add(sndBuffer);
+
+            int s = (int)(sndBuffer.Count % rpSegmentSize);
+
+            s = (int)(rpSegmentSize - s);
+
+            if (s > 0)
+                args.BufferList.Add(new ArraySegment<byte>(emptyArray, 0, s));
+
+            args.BufferList = args.BufferList;
+
+            return sclient.SendAsync(args);
         }
 
         public void SendEmpty(ushort packetId)
