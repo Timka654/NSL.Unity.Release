@@ -69,6 +69,7 @@ namespace NSL.TCP
 
         protected CoreOptions<TClient> options;
         private readonly bool legacyTransport;
+        private uint segmentSize;
         private Dictionary<ushort, CoreOptions<TClient>.PacketHandle> PacketHandles;
 
         public IPEndPoint GetRemotePoint()
@@ -76,22 +77,25 @@ namespace NSL.TCP
             return endPoint;
         }
 
-        protected void RunReceive()
+        protected async void RunReceive()
         {
+            segmentSize = Options.SegmentSize;
+
             disconnected = false;
 
             PacketHandles = options.GetHandleMap();
 
             if (!legacyTransport)
             {
-                SendRPData();
+                if (!await SendRPData())
+                    return;
 
-                ReceiveRPDataAsync(() =>
-                {
-                    startSend();
+                if (!await ReceiveRPDataAsync())
+                    return;
 
-                    asyncReceive();
-                });
+                startSend();
+
+                asyncReceive();
 
                 return;
             }
@@ -102,6 +106,7 @@ namespace NSL.TCP
 
             threadReceive();
         }
+
 
         private void asyncReceive()
         {
@@ -167,7 +172,7 @@ namespace NSL.TCP
 
         uint rpSegmentSize = 0;
 
-        protected void SendRPData()
+        protected async Task<bool> SendRPData()
         {
             var data = new byte[2048];
 
@@ -180,19 +185,38 @@ namespace NSL.TCP
                 if (sclient == null)
                 {
                     Disconnect();
-                    return;
+                    return false;
                 }
 
-                sclient.Send(data);
+                int offset = 0;
+
+                do
+                {
+                    var r = await sclient.SendAsync(new ArraySegment<byte>(data, offset, data.Length - offset), SocketFlags.None);
+
+                    if (r < 1)
+                    {
+                        Disconnect();
+                        return false;
+                    }
+
+                    offset += r;
+                } while (offset < data.Length);
+
+                return true;
 
             }
+            catch (NullReferenceException) { Disconnect(); }
+            catch (ObjectDisposedException) { Disconnect(); }
             catch (Exception ex)
             {
                 Disconnect(new ConnectionLostException(GetRemotePoint(), false, ex));
             }
+
+            return false;
         }
 
-        protected async void ReceiveRPDataAsync(Action onReceive)
+        protected async Task<bool> ReceiveRPDataAsync()
         {
             var receive = new byte[2048];
 
@@ -205,17 +229,27 @@ namespace NSL.TCP
                 {
                     int r = await sclient.ReceiveAsync(new ArraySegment<byte>(receive, offset, receive.Length - offset), SocketFlags.None);
 
+                    if (r < 1)
+                    {
+                        Disconnect();
+                        return false;
+                    }
+
                     offset += r;
                 } while (offset < receive.Length);
 
                 rpSegmentSize = BitConverter.ToUInt32(receive, 0);
 
-                onReceive();
+                return true;
             }
+            catch (NullReferenceException) { Disconnect(); }
+            catch (ObjectDisposedException) { Disconnect(); }
             catch (Exception ex)
             {
                 Disconnect(new ConnectionLostException(GetRemotePoint(), true, ex));
             }
+
+            return false;
         }
 
         #endregion
@@ -519,23 +553,28 @@ namespace NSL.TCP
             {
                 SocketError = SocketError.Success,
                 BufferList = new List<ArraySegment<byte>>(),
-                UserToken = false
+                UserToken = new DevTransport() { }
             };
 
             sendArgs.Completed += sendBufHandle;
 
-            while (!await sendProc(sendArgs, false)) { }
+            while (!await sendProc(sendArgs)) { }
         }
         public int maxSendTime = 0;
 
         private int spc = 0;
-        private Stopwatch csw;
 
         static ObjectPool<SocketAsyncEventArgs> sendBufferPool = ObjectPool.Create<SocketAsyncEventArgs>();
 
         private async void sendBufHandle(object s, SocketAsyncEventArgs e)
         {
-            while (!await sendProc(e, ((bool)e.UserToken))) { }
+            while (!await sendProc(e)) { }
+        }
+
+        private record DevTransport
+        {
+            public bool isPooled { get; set; }
+            public Stopwatch sendMark { get; set; }
         }
 
         private void returnBufferPool(SocketAsyncEventArgs args)
@@ -545,8 +584,10 @@ namespace NSL.TCP
             sendBufferPool.Return(args);
         }
 
-        private async Task<bool> sendProc(SocketAsyncEventArgs args, bool pooledObject)
+        private async Task<bool> sendProc(SocketAsyncEventArgs args)
         {
+            bool pooledObject = ((DevTransport)args.UserToken).isPooled;
+
             byte[] buf = null;
 
             try
@@ -563,7 +604,7 @@ namespace NSL.TCP
                     return true;
                 }
 
-                var t = (int)(csw?.Elapsed.TotalMilliseconds ?? 0);
+                var t = (int)(((DevTransport)args.UserToken).sendMark?.Elapsed.TotalMilliseconds ?? 0);
 
                 if (t > maxSendTime)
                     maxSendTime = t;
@@ -589,9 +630,8 @@ namespace NSL.TCP
                         buf = await sendChannelReader.ReadAsync();
                 }
 
-                csw = Stopwatch.StartNew();
 
-
+                ((DevTransport)args.UserToken).sendMark = Stopwatch.StartNew();
                 bool r = sendBuf(buf, args);
 
                 if (!pooledObject)
@@ -601,7 +641,9 @@ namespace NSL.TCP
                         args = sendBufferPool.Get();
                         args.BufferList = new List<ArraySegment<byte>>();
                         args.Completed += sendBufHandle;
-                        args.UserToken = true;
+                        args.UserToken = new DevTransport() { isPooled = true };
+
+                        ((DevTransport)args.UserToken).sendMark = Stopwatch.StartNew();
 
 
                         Interlocked.Increment(ref spc);
@@ -633,22 +675,23 @@ namespace NSL.TCP
 
             var pid = BitConverter.ToUInt16(buf, 4);
 
-            ThreadHelper.InvokeOnMain(() => { UnityEngine.Debug.Log($"Send pid {pid} / wait {sendChannelReader.Count} /t {maxSendTime} /p {spc}"); });
-
             ArraySegment<byte> sndBuffer = outputCipher.Encode(buf, 0, buf.Length);
 
             args.BufferList.Clear();
 
             args.BufferList.Add(sndBuffer);
 
-            int s = (int)(sndBuffer.Count % rpSegmentSize);
+            int s = (int)(sndBuffer.Count % segmentSize);
 
-            s = (int)(rpSegmentSize - s);
+            s = (int)(segmentSize - s);
 
             if (s > 0)
                 args.BufferList.Add(new ArraySegment<byte>(emptyArray, 0, s));
 
+            ThreadHelper.InvokeOnMain(() => { UnityEngine.Debug.Log($"Send pid {pid} /wait_to_send {sendChannelReader.Count} /max_send {maxSendTime} /poolExec {spc} /send_len {args.BufferList.Sum(x => x.Count)}"); });
+
             args.BufferList = args.BufferList;
+
 
             return sclient.SendAsync(args);
         }
