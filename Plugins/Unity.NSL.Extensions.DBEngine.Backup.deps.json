@@ -7,45 +7,45 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.NSL.Extensions.DBEngine.Backup/2024.11.30.2343": {
+      "Unity.NSL.Extensions.DBEngine.Backup/2024.12.06.0048": {
         "dependencies": {
-          "Unity.NSL.Extensions.DBEngine": "2024.11.30.2343",
-          "Unity.NSL.Extensions.DBEngine.Reference": "2024.11.30.2343"
+          "Unity.NSL.Extensions.DBEngine": "2024.12.6.48",
+          "Unity.NSL.Extensions.DBEngine.Reference": "2024.12.6.48"
         },
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.Backup.dll": {}
         }
       },
-      "Unity.NSL.Extensions.DBEngine/2024.11.30.2343": {
+      "Unity.NSL.Extensions.DBEngine/2024.12.6.48": {
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.dll": {
-            "assemblyVersion": "2024.11.30.2343",
+            "assemblyVersion": "2024.12.6.48",
             "fileVersion": ""
           }
         }
       },
-      "Unity.NSL.Extensions.DBEngine.Reference/2024.11.30.2343": {
+      "Unity.NSL.Extensions.DBEngine.Reference/2024.12.6.48": {
         "runtime": {
           "Unity.NSL.Extensions.DBEngine.dll": {
-            "assemblyVersion": "2024.11.30.2343",
-            "fileVersion": "2024.11.30.2343"
+            "assemblyVersion": "2024.12.6.48",
+            "fileVersion": "2024.12.6.48"
           }
         }
       }
     }
   },
   "libraries": {
-    "Unity.NSL.Extensions.DBEngine.Backup/2024.11.30.2343": {
+    "Unity.NSL.Extensions.DBEngine.Backup/2024.12.06.0048": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Extensions.DBEngine/2024.11.30.2343": {
+    "Unity.NSL.Extensions.DBEngine/2024.12.6.48": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Extensions.DBEngine.Reference/2024.11.30.2343": {
+    "Unity.NSL.Extensions.DBEngine.Reference/2024.12.6.48": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

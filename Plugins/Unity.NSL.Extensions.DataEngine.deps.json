@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.NSL.Extensions.DataEngine/2024.11.30.2343": {
+      "Unity.NSL.Extensions.DataEngine/2024.12.06.0048": {
         "runtime": {
           "Unity.NSL.Extensions.DataEngine.dll": {}
         }
@@ -15,7 +15,7 @@
     }
   },
   "libraries": {
-    "Unity.NSL.Extensions.DataEngine/2024.11.30.2343": {
+    "Unity.NSL.Extensions.DataEngine/2024.12.06.0048": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.Open.Nat/2024.11.30.2343": {
+      "Unity.Open.Nat/2024.12.06.0048": {
         "runtime": {
           "Unity.Open.Nat.dll": {}
         }
@@ -15,7 +15,7 @@
     }
   },
   "libraries": {
-    "Unity.Open.Nat/2024.11.30.2343": {
+    "Unity.Open.Nat/2024.12.06.0048": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
