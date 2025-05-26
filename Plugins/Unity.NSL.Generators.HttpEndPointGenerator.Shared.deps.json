@@ -7,24 +7,24 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Unity.NSL.Generators.HttpEndPointGenerator.Shared/2024.12.06.0048": {
+      "Unity.NSL.Generators.HttpEndPointGenerator.Shared/2025.05.26.1836": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "8.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.3",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
           "Unity.NSL.Generators.HttpEndPointGenerator.Shared.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/8.0.0": {
+      "Microsoft.Extensions.Primitives/9.0.3": {
         "dependencies": {
           "System.Memory": "4.5.5",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.325.11113"
           }
         }
       },
@@ -74,17 +74,17 @@
     }
   },
   "libraries": {
-    "Unity.NSL.Generators.HttpEndPointGenerator.Shared/2024.12.06.0048": {
+    "Unity.NSL.Generators.HttpEndPointGenerator.Shared/2025.05.26.1836": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.Extensions.Primitives/8.0.0": {
+    "Microsoft.Extensions.Primitives/9.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bXJEZrW9ny8vjMF1JV253WeLhpEVzFo1lyaZu1vQ4ZxWUlVvknZ/+ftFgVheLubb4eZPSwwxBeqS1JkCOjxd8g==",
-      "path": "microsoft.extensions.primitives/8.0.0",
-      "hashPath": "microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+      "sha512": "sha512-yCCJHvBcRyqapMSNzP+kTc57Eaavq2cr5Tmuil6/XVnipQf5xmskxakSQ1enU6S4+fNg3sJ27WcInV64q24JsA==",
+      "path": "microsoft.extensions.primitives/9.0.3",
+      "hashPath": "microsoft.extensions.primitives.9.0.3.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

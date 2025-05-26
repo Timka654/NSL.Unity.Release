@@ -1,8 +1,10 @@
 fileFormatVersion: 2
 guid: 2925fc9a6ed07d84c98a650c37334cbe
+labels:
+- RoslynAnalyzer
 PluginImporter:
   externalObjects: {}
-  serializedVersion: 2
+  serializedVersion: 3
   iconMap: {}
   executionOrder: {}
   defineConstraints: []
@@ -11,20 +13,14 @@ PluginImporter:
   isExplicitlyReferenced: 0
   validateReferences: 1
   platformData:
-  - first:
-      Any: 
-    second:
+    Any:
       enabled: 0
       settings: {}
-  - first:
-      Editor: Editor
-    second:
+    Editor:
       enabled: 0
       settings:
         DefaultValueInitialized: true
-  - first:
-      Windows Store Apps: WindowsStoreApps
-    second:
+    WindowsStoreApps:
       enabled: 1
       settings: {}
   userData: 
