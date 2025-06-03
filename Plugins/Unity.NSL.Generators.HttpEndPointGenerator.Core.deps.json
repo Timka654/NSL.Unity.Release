@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Unity.NSL.Generators.HttpEndPointGenerator.Core/2025.05.26.1836": {
+      "Unity.NSL.Generators.HttpEndPointGenerator.Core/2025.06.02.1935": {
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp": "4.3.0",
           "Microsoft.Extensions.Primitives": "9.0.3",
@@ -232,7 +232,7 @@
     }
   },
   "libraries": {
-    "Unity.NSL.Generators.HttpEndPointGenerator.Core/2025.05.26.1836": {
+    "Unity.NSL.Generators.HttpEndPointGenerator.Core/2025.06.02.1935": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
