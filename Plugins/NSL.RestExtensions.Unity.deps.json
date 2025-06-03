@@ -7,13 +7,13 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "NSL.RestExtensions.Unity/2025.05.26.1836": {
+      "NSL.RestExtensions.Unity/2025.06.03.2046": {
         "dependencies": {
-          "NSL.Utils.Unity": "2025.5.26.1836",
-          "Unity.NSL.RestExtensions": "2025.5.26.1836",
-          "Unity.NSL.Utils": "2025.5.26.1836",
-          "Unity.NSL.RestExtensions.Reference": "2025.5.26.1836",
-          "Unity.NSL.Utils.Reference": "2025.5.26.1836",
+          "NSL.Utils.Unity": "2025.6.3.2046",
+          "Unity.NSL.RestExtensions": "2025.6.3.2046",
+          "Unity.NSL.Utils": "2025.6.3.2046",
+          "Unity.NSL.RestExtensions.Reference": "2025.6.3.2046",
+          "Unity.NSL.Utils.Reference": "2025.6.3.2046",
           "UnityEngine": "0.0.0.0"
         },
         "runtime": {
@@ -36,17 +36,17 @@
           }
         }
       },
-      "NSL.Utils.Unity/2025.5.26.1836": {
+      "NSL.Utils.Unity/2025.6.3.2046": {
         "runtime": {
           "NSL.Utils.Unity.dll": {
-            "assemblyVersion": "2025.5.26.1836",
-            "fileVersion": "2025.5.26.1836"
+            "assemblyVersion": "2025.6.3.2046",
+            "fileVersion": "2025.6.3.2046"
           }
         }
       },
-      "Unity.NSL.RestExtensions/2025.5.26.1836": {
+      "Unity.NSL.RestExtensions/2025.6.3.2046": {
         "dependencies": {
-          "Unity.NSL.Utils": "2025.5.26.1836"
+          "Unity.NSL.Utils": "2025.6.3.2046"
         },
         "runtime": {
           "Unity.NSL.RestExtensions.dll": {
@@ -54,7 +54,7 @@
           }
         }
       },
-      "Unity.NSL.Utils/2025.5.26.1836": {
+      "Unity.NSL.Utils/2025.6.3.2046": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
           "System.Security.Principal.Windows": "5.0.0"
@@ -65,19 +65,19 @@
           }
         }
       },
-      "Unity.NSL.RestExtensions.Reference/2025.5.26.1836": {
+      "Unity.NSL.RestExtensions.Reference/2025.6.3.2046": {
         "runtime": {
           "Unity.NSL.RestExtensions.dll": {
-            "assemblyVersion": "2025.5.26.1836",
-            "fileVersion": "2025.5.26.1836"
+            "assemblyVersion": "2025.6.3.2046",
+            "fileVersion": "2025.6.3.2046"
           }
         }
       },
-      "Unity.NSL.Utils.Reference/2025.5.26.1836": {
+      "Unity.NSL.Utils.Reference/2025.6.3.2046": {
         "runtime": {
           "Unity.NSL.Utils.dll": {
-            "assemblyVersion": "2025.5.26.1836",
-            "fileVersion": "2025.5.26.1836"
+            "assemblyVersion": "2025.6.3.2046",
+            "fileVersion": "2025.6.3.2046"
           }
         }
       },
@@ -92,7 +92,7 @@
     }
   },
   "libraries": {
-    "NSL.RestExtensions.Unity/2025.05.26.1836": {
+    "NSL.RestExtensions.Unity/2025.06.03.2046": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -111,27 +111,27 @@
       "path": "system.security.principal.windows/5.0.0",
       "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
     },
-    "NSL.Utils.Unity/2025.5.26.1836": {
+    "NSL.Utils.Unity/2025.6.3.2046": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.RestExtensions/2025.5.26.1836": {
+    "Unity.NSL.RestExtensions/2025.6.3.2046": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Utils/2025.5.26.1836": {
+    "Unity.NSL.Utils/2025.6.3.2046": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.RestExtensions.Reference/2025.5.26.1836": {
+    "Unity.NSL.RestExtensions.Reference/2025.6.3.2046": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
-    "Unity.NSL.Utils.Reference/2025.5.26.1836": {
+    "Unity.NSL.Utils.Reference/2025.6.3.2046": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
