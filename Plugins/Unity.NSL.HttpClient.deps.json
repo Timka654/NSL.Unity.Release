@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "Unity.NSL.HttpClient/2025.06.02.1935": {
+      "Unity.NSL.HttpClient/2025.06.09.2202": {
         "dependencies": {
           "System.Text.Json": "9.0.5"
         },
@@ -117,7 +117,7 @@
     }
   },
   "libraries": {
-    "Unity.NSL.HttpClient/2025.06.02.1935": {
+    "Unity.NSL.HttpClient/2025.06.09.2202": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

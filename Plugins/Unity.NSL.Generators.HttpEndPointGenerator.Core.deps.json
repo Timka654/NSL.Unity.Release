@@ -7,10 +7,10 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Unity.NSL.Generators.HttpEndPointGenerator.Core/2025.06.02.1935": {
+      "Unity.NSL.Generators.HttpEndPointGenerator.Core/2025.06.09.2202": {
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp": "4.3.0",
-          "Microsoft.Extensions.Primitives": "9.0.3",
+          "Microsoft.Extensions.Primitives": "9.0.5",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
@@ -128,7 +128,7 @@
           }
         }
       },
-      "Microsoft.Extensions.Primitives/9.0.3": {
+      "Microsoft.Extensions.Primitives/9.0.5": {
         "dependencies": {
           "System.Memory": "4.5.5",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -136,7 +136,7 @@
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.325.11113"
+            "fileVersion": "9.0.525.21509"
           }
         }
       },
@@ -232,7 +232,7 @@
     }
   },
   "libraries": {
-    "Unity.NSL.Generators.HttpEndPointGenerator.Core/2025.06.02.1935": {
+    "Unity.NSL.Generators.HttpEndPointGenerator.Core/2025.06.09.2202": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -258,12 +258,12 @@
       "path": "microsoft.codeanalysis.csharp/4.3.0",
       "hashPath": "microsoft.codeanalysis.csharp.4.3.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Primitives/9.0.3": {
+    "Microsoft.Extensions.Primitives/9.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-yCCJHvBcRyqapMSNzP+kTc57Eaavq2cr5Tmuil6/XVnipQf5xmskxakSQ1enU6S4+fNg3sJ27WcInV64q24JsA==",
-      "path": "microsoft.extensions.primitives/9.0.3",
-      "hashPath": "microsoft.extensions.primitives.9.0.3.nupkg.sha512"
+      "sha512": "sha512-b4OAv1qE1C9aM+ShWJu3rlo/WjDwa/I30aIPXqDWSKXTtKl1Wwh6BZn+glH5HndGVVn3C6ZAPQj5nv7/7HJNBQ==",
+      "path": "microsoft.extensions.primitives/9.0.5",
+      "hashPath": "microsoft.extensions.primitives.9.0.5.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
